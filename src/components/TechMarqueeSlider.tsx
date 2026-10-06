@@ -34,10 +34,10 @@ export const TechMarqueeSlider: React.FC = () => {
       color: "rgba(167, 139, 250, 0.15)"
     },
     {
-      icon: <Cpu size={14} style={{ color: '#34d399' }} />,
-      label: "IoT & Telemetry Systems",
-      badge: "ESP32 • Multi-Sensor",
-      color: "rgba(52, 211, 153, 0.15)"
+      icon: <Sparkles size={14} style={{ color: '#38bdf8' }} />,
+      label: "AI-Augmented Velocity",
+      badge: "Claude Code • Agentic",
+      color: "rgba(56, 189, 248, 0.15)"
     },
     {
       icon: <Globe size={14} style={{ color: '#fbbf24' }} />,

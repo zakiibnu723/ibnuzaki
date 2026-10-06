@@ -99,14 +99,13 @@ const ProjectImageSlideshow: React.FC<{ images: string[]; title: string; height?
 };
 
 export const ProjectShowcase: React.FC = () => {
-  const [activeCategory, setActiveCategory] = useState<'all' | 'web' | 'mobile' | 'iot'>('all');
+  const [activeCategory, setActiveCategory] = useState<'all' | 'mobile' | 'web'>('all');
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
   const categories = [
     { id: 'all', label: 'All Projects' },
+    { id: 'mobile', label: 'Mobile Apps (Play Store)' },
     { id: 'web', label: 'Fullstack Web' },
-    { id: 'mobile', label: 'Mobile Apps' },
-    { id: 'iot', label: 'IoT & Telemetry' },
   ];
 
   const filteredProjects = activeCategory === 'all' 
@@ -149,7 +148,7 @@ export const ProjectShowcase: React.FC = () => {
           </h2>
 
           <p style={{ color: 'var(--text-secondary)', maxWidth: '640px', fontSize: '1.02rem', lineHeight: 1.6 }}>
-            Production-grade systems demonstrating responsive fullstack architectures, interactive geospatial analytics, dynamic weather forecasting, and native mobile development.
+            Production-grade mobile applications and web systems demonstrating native Android engineering, persistent background services, real-time map telemetry, and rapid 0-to-1 product delivery.
           </p>
 
           {/* Filter Pills */}

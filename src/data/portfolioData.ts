@@ -2,7 +2,7 @@ export interface Project {
   id: string;
   title: string;
   subtitle: string;
-  category: 'all' | 'web' | 'mobile' | 'iot';
+  category: 'all' | 'web' | 'mobile';
   categoryLabel: string;
   description: string;
   longDescription: string;
@@ -38,9 +38,9 @@ export interface ExperienceItem {
 export const PORTFOLIO_DATA = {
   profile: {
     name: "Ibnu Zaki Al",
-    title: "Fullstack Web & Mobile Developer | IoT Integration",
+    title: "Mobile Engineer (Android & AI-Augmented Development)",
     subtitle: "Informatics • UIN Sunan Kalijaga Yogyakarta (2022 — 2026 Expected)",
-    shortBio: "Fullstack Web & Mobile Developer with IoT Integration capabilities, focused on engineering production-ready web applications, intuitive mobile software, and real-time telemetry architectures. Dedicated to building scalable, high-impact digital solutions with clean architecture and solid user experiences.",
+    shortBio: "High-velocity Mobile Engineer specializing in Native Android Development (Kotlin, Jetpack Compose) and AI-Augmented Software Workflows (Claude Code). Proven track record of shipping production-grade mobile applications to the Google Play Store with 600+ Daily Active Users (DAU). Deep practical experience in engineering resilient Android Background Services, real-time push notifications, geospatial/map telemetry, and data-driven product analytics via Firebase.",
     location: "Indonesia (Open to On-site, Hybrid & Remote)",
     status: "Available for Hire",
     email: "zakiibnu723@gmail.com",
@@ -49,69 +49,159 @@ export const PORTFOLIO_DATA = {
     github: "https://github.com/zakiibnu723",
     linkedin: "https://linkedin.com/in/ibnuzakial",
     stats: [
-      { label: "Completed Projects", value: "23+" },
-      { label: "National Awards", value: "3" },
-      { label: "Web, Mobile & IoT", value: "10+" },
+      { label: "Completed Projects", value: "18+" },
+      { label: "Google Play Store DAU", value: "600+" },
+      { label: "National Tech Awards", value: "3" },
     ]
   },
 
   projects: [
     {
-      id: "esp32-iot-telemetry",
-      title: "ESP32 End-to-End IoT Telemetry & Monitoring Architecture",
-      subtitle: "Closed-Loop Embedded IoT Telemetry & Centralized Web Platform",
-      category: "iot",
-      categoryLabel: "IoT & Embedded Systems",
-      description: "Architected a complete closed-loop IoT ecosystem integrating multi-node ESP32 devices, a centralized HTTP REST API, SQL Server, and an interactive React web dashboard.",
-      longDescription: "A complete end-to-end telemetry pipeline connecting edge microcontrollers with enterprise web applications. Standardized bi-directional JSON payload formats for real-time sensor ingestion (POST) and dynamic web metric queries (GET). Built a responsive dashboard featuring multi-device status monitoring, historical time-series charts, and data filtering by device ID and timestamps.",
-      tags: ["ESP32", "IoT Sensors", "HTTP REST API", "SQL Server", "React.js", "C/C++", "Telemetry"],
+      id: "care360",
+      title: "Care360 📍",
+      subtitle: "Real-Time Telemetry & Interactive 3D Geospatial Mobile App",
+      category: "mobile",
+      categoryLabel: "Mobile Engineering & Geolocation",
+      description: "Active real-time location tracking and telemetry mobile application featuring interactive 3D map rendering, persistent battery-efficient background location services, and instant boundary geofencing alerts.",
+      longDescription: "Care360 is built for continuous family and device location intelligence, delivering reliable real-time tracking even under severe Android battery-saver constraints. Features high-framerate 3D map visualization, persistent foreground/background coordinate ingestion, bi-directional WebSockets connectivity, and automated geofence radius trigger notifications for safety telemetry.",
+      tags: ["Android", "Kotlin", "Jetpack Compose", "3D Maps", "WebSockets", "Firebase", "Background Services", "Geofencing"],
       metrics: [
-        { label: "Hardware", value: "Multi-Node ESP32" },
-        { label: "Protocol", value: "HTTP REST JSON" },
-        { label: "Storage", value: "SQL Server" }
+        { label: "Telemetry", value: "Real-Time 3D GPS" },
+        { label: "Reliability", value: "Persistent Background Sync" },
+        { label: "Architecture", value: "Jetpack Compose & WS" }
       ],
-      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop",
+      image: "/care360.png",
       images: [
-        "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop"
+        "/care360.png"
       ],
       githubUrl: "",
       liveUrl: "",
       hideExternalLinks: true,
       featured: true,
       highlights: [
-        "Architected a complete closed-loop IoT ecosystem integrating multi-node ESP32 devices, centralized HTTP REST API, SQL Server, and interactive React web dashboard",
-        "Standardized bi-directional JSON payload formats for real-time sensor ingestion (POST) and dynamic web metric queries (GET)",
-        "Built a responsive dashboard featuring multi-device status monitoring, historical time-series charts, and data filtering by device ID and timestamps",
-        "Robust edge network reconnection routines ensuring zero data loss during intermittent Wi-Fi dropouts"
+        "Architected persistent Android Background Location Services with battery-adaptive polling intervals",
+        "Engineered smooth interactive 3D map projection with live movement interpolation and custom telemetry markers",
+        "Implemented real-time bidirectional WebSocket synchronization for instant coordinate streaming",
+        "Integrated Firebase push notifications (FCM) for low-latency geofence entry and exit triggers",
+        "Designed clean MVVM architecture with Kotlin Coroutines and StateFlow for reactive UI state management"
       ]
     },
     {
-      id: "esp32-environmental-logger",
-      title: "ESP32 Multi-Sensor Environmental Data Logger",
-      subtitle: "Edge Multi-Variable Logging & Analytical Time-Series Platform",
-      category: "iot",
-      categoryLabel: "IoT & Embedded Systems",
-      description: "Built an edge data logging system capturing multi-variable environmental and inertial data at scheduled intervals using an ESP32 and precision sensors (DHT22, DS18B20, MPU6050, RTC).",
-      longDescription: "Engineered an industrial-grade edge logging solution to monitor multi-point temperature, humidity, and vibration parameters. Optimized network reliability by bundling timestamped sensor packets with fallback local queuing for uninterrupted telemetry transmission, complemented by an analytical React visualizer.",
-      tags: ["ESP32", "DHT22 / DS18B20", "MPU6050", "RTC Module", "Wi-Fi", "SQL Server", "React.js"],
+      id: "airdrop-x",
+      title: "AirDrop X ⚡",
+      subtitle: "High-Performance P2P File Transfer & Utility Engine (Live on Play Store)",
+      category: "mobile",
+      categoryLabel: "Mobile Engineering & Networking",
+      description: "A high-velocity local peer-to-peer file transfer engine on Google Play Store reaching 300+ DAU. Built with robust Android foreground & background services, Wi-Fi Direct discovery, dynamic progress notifications, and custom Firebase telemetry.",
+      longDescription: "AirDrop X provides lightning-fast offline device-to-device data sharing across Android smartphones without consuming mobile data. Solves heavy payload transfer bottlenecks using direct socket streaming over Wi-Fi Direct. Features automated peer radar discovery, resumable chunked file transfers, foreground service notifications with real-time transfer velocity metering (up to 48+ MB/s), and Firebase custom event tracking.",
+      tags: ["Android", "Kotlin", "Jetpack Compose", "Wi-Fi Direct / P2P", "FCM Push Notif", "Background Services", "Firebase Analytics"],
       metrics: [
-        { label: "Sensors", value: "DHT22 / DS18B20 / MPU" },
-        { label: "Edge Sync", value: "RTC Timestamped" },
-        { label: "Reliability", value: "Fallback Queuing" }
+        { label: "Live Users", value: "300+ DAU" },
+        { label: "Store Status", value: "Google Play Live" },
+        { label: "Transfer Speed", value: "Up to 48+ MB/s" }
       ],
-      image: "https://images.unsplash.com/photo-1555680202-c86f0e12f086?q=80&w=1200&auto=format&fit=crop",
+      image: "/airdrop-x.png",
       images: [
-        "https://images.unsplash.com/photo-1555680202-c86f0e12f086?q=80&w=1200&auto=format&fit=crop"
+        "/airdrop-x.png"
       ],
       githubUrl: "",
       liveUrl: "",
       hideExternalLinks: true,
       featured: true,
       highlights: [
-        "Built an edge data logging system capturing multi-variable environmental and inertial data at scheduled intervals using an ESP32 and precision sensors",
-        "Optimized network reliability by bundling timestamped sensor packets with fallback queuing for uninterrupted telemetry transmission",
-        "Delivered a web visualizer enabling granular date-range filtering, device selection, and exportable analytical charts",
-        "Integrated precision hardware RTC module ensuring accurate time-series logging during power cycles"
+        "Published and maintained on Google Play Store, organically scaling to 300+ Daily Active Users (DAU)",
+        "Engineered high-throughput P2P transmission engine using Wi-Fi Direct and raw TCP socket streaming",
+        "Implemented uninterrupted Android Foreground Service with live notification progress bar and speed telemetry",
+        "Integrated Firebase Analytics with custom funnel events to measure peer pairing success and transfer completion",
+        "Enforced robust Storage Access Framework (SAF) permissions compliant with Android 13/14+ security policies"
+      ]
+    },
+    {
+      id: "utility-suite",
+      title: "Android Utility Suite 🚀",
+      subtitle: "High-Velocity Mobile Utilities & Content Processing Tools (Play Store)",
+      category: "mobile",
+      categoryLabel: "Mobile Engineering & DevTools",
+      description: "A published suite of native utility apps (Long Screenshot, Content Capture) on Google Play Store driving 600+ cumulative DAU. Engineered for rapid 1–3 day delivery cycles using Claude Code with crash-free stability.",
+      longDescription: "Demonstrating high-velocity mobile product engineering from discovery to store deployment. This ecosystem of lightweight Android utility apps solves daily mobile productivity needs: seamless long canvas stitching, screen capture overlays, and media extraction. Built with high performance bitmap rendering, memory optimization to prevent OutOfMemory (OOM) errors, and comprehensive Firebase Crashlytics monitoring.",
+      tags: ["Android", "Kotlin", "Claude Code", "Play Store Production", "Storage Access Framework", "Firebase Crashlytics"],
+      metrics: [
+        { label: "Cumulative Reach", value: "600+ DAU" },
+        { label: "Delivery Speed", value: "1-3 Day Cycles" },
+        { label: "Platform", value: "Google Play Store" }
+      ],
+      image: "/utility-suite.png",
+      images: [
+        "/utility-suite.png"
+      ],
+      githubUrl: "",
+      liveUrl: "",
+      hideExternalLinks: true,
+      featured: true,
+      highlights: [
+        "Shipped multiple production utility applications to Google Play Store achieving 600+ cumulative DAU",
+        "Leveraged Claude Code and AI-assisted workflows to compress 0-to-1 feature delivery cycles down to 1–3 days",
+        "Optimized bitmap memory allocations and recycling pipeline to achieve zero-crash canvas stitching",
+        "Monitored live production stability and session metrics using Firebase Crashlytics and Remote Config",
+        "Executed data-driven store listing and feature iteration to boost user retention and organic discoverability"
+      ]
+    },
+    {
+      id: "voiz-ai",
+      title: "Voiz.AI 🎙️",
+      subtitle: "Smart Mobile Voice Transformation & Neural Audio Studio",
+      category: "mobile",
+      categoryLabel: "Mobile Engineering & Audio",
+      description: "An intuitive mobile audio application enabling users to transform speech and create custom voice clones in seconds. Features dual-input audio capture, live tempo & pitch adjustments, and seamless export to social platforms.",
+      longDescription: "Voiz.AI provides a seamless mobile studio experience for voice synthesis and creative audio morphing. Designed with modern aesthetics and fluid controls, users can easily speak into the microphone or import existing audio files to generate realistic character voices. The app features built-in fine-tuning controls to adjust pitch and pacing in real time, alongside a personal voice library for saving, managing, and sharing creations directly with friends and team members.",
+      tags: ["Android", "Kotlin", "Jetpack Compose", "FastAPI", "Supabase", "Cloudflare R2", "Hugging Face", "Neural Audio"],
+      metrics: [
+        { label: "Platform", value: "Native Android" },
+        { label: "Audio Capture", value: "Mic & File Upload" },
+        { label: "Controls", value: "Real-Time Tuning" }
+      ],
+      image: "/voiz-ai.png",
+      images: [
+        "/voiz-ai.png"
+      ],
+      githubUrl: "",
+      liveUrl: "",
+      featured: true,
+      highlights: [
+        "Instant speech morphing into diverse character and neural voice profiles",
+        "Dual-input studio supporting direct microphone recording and multi-format audio uploads",
+        "Real-time tuning console to calibrate speech tempo, tone depth, and playback pacing",
+        "Personal audio collection to bookmark favorite voices and organize custom creations",
+        "One-tap direct export and sharing to WhatsApp, Telegram, and social media platforms"
+      ]
+    },
+    {
+      id: "jsonflow",
+      title: "JSONFlow ⚡",
+      subtitle: "High-Performance Mobile JSON Inspector & API Data Viewer",
+      category: "mobile",
+      categoryLabel: "Mobile Engineering & DevTools",
+      description: "A developer-centric mobile utility designed to inspect, parse, and navigate complex JSON data and API responses directly on your phone. Engineered for smooth handling of large payloads with zero lag.",
+      longDescription: "JSONFlow empowers developers, QA engineers, and tech teams to debug, validate, and analyze structured JSON datasets on the go. Built to eliminate lag and crashes when handling heavy API responses, the app features an intuitive collapsible tree view, instant key-value search, automated syntax error detection, and flexible formatting tools to turn raw data into clean, readable structures anywhere.",
+      tags: ["Android", "Kotlin", "Jetpack Compose", "JSON Parser", "DevTools", "Performance Engine", "Mobile"],
+      metrics: [
+        { label: "Platform", value: "Native Android" },
+        { label: "File Handling", value: "Heavy Payloads" },
+        { label: "Visualization", value: "Collapsible Tree" }
+      ],
+      image: "/jsonflow.png",
+      images: [
+        "/jsonflow.png"
+      ],
+      githubUrl: "",
+      liveUrl: "",
+      featured: true,
+      highlights: [
+        "High-speed data processing engine capable of rendering large files smoothly without lag",
+        "Interactive collapsible tree view with syntax color-coding for effortless hierarchy exploration",
+        "Instant smart search to quickly locate specific keys, values, or deeply nested objects",
+        "Real-time JSON validation with precise error indicators and line pinpointing",
+        "One-click formatting, beautification, clipboard copying, and file export for rapid testing"
       ]
     },
     {
@@ -175,68 +265,18 @@ export const PORTFOLIO_DATA = {
         "Regional benchmark summary and clean energy feasibility insights per district",
         "Lightweight, fast-loading geospatial delivery optimized for desktop and mobile devices"
       ]
-    },
-    {
-      id: "voiz-ai",
-      title: "Voiz.AI 🎙️",
-      subtitle: "Smart Mobile Voice Transformation & Custom Audio Studio",
-      category: "mobile",
-      categoryLabel: "Mobile Engineering & Audio",
-      description: "An intuitive mobile audio application enabling users to transform speech and create custom voice clones in seconds. Features dual-input audio capture, live tempo & pitch adjustments, and seamless export to social platforms.",
-      longDescription: "Voiz.AI provides a seamless mobile studio experience for voice synthesis and creative audio morphing. Designed with modern aesthetics and fluid controls, users can easily speak into the microphone or import existing audio files to generate realistic character voices. The app features built-in fine-tuning controls to adjust pitch and pacing in real time, alongside a personal voice library for saving, managing, and sharing creations directly with friends and team members.",
-      tags: ["Android", "Kotlin", "Jetpack Compose", "FastAPI", "Supabase", "Cloudflare R2", "Hugging Face", "Neural Audio"],
-      metrics: [
-        { label: "Platform", value: "Native Android" },
-        { label: "Audio Capture", value: "Mic & File Upload" },
-        { label: "Controls", value: "Real-Time Tuning" }
-      ],
-      image: "/voiz-ai.png",
-      images: [
-        "/voiz-ai.png"
-      ],
-      githubUrl: "",
-      liveUrl: "",
-      featured: true,
-      highlights: [
-        "Instant speech morphing into diverse character and neural voice profiles",
-        "Dual-input studio supporting direct microphone recording and multi-format audio uploads",
-        "Real-time tuning console to calibrate speech tempo, tone depth, and playback pacing",
-        "Personal audio collection to bookmark favorite voices and organize custom creations",
-        "One-tap direct export and sharing to WhatsApp, Telegram, and social media platforms"
-      ]
-    },
-    {
-      id: "jsonflow",
-      title: "JSONFlow ⚡",
-      subtitle: "High-Performance Mobile JSON Inspector & API Data Viewer",
-      category: "mobile",
-      categoryLabel: "Mobile Engineering & DevTools",
-      description: "A developer-centric mobile utility designed to inspect, parse, and navigate complex JSON data and API responses directly on your phone. Engineered for smooth handling of large payloads with zero lag.",
-      longDescription: "JSONFlow empowers developers, QA engineers, and tech teams to debug, validate, and analyze structured JSON datasets on the go. Built to eliminate lag and crashes when handling heavy API responses, the app features an intuitive collapsible tree view, instant key-value search, automated syntax error detection, and flexible formatting tools to turn raw data into clean, readable structures anywhere.",
-      tags: ["Android", "Kotlin", "Jetpack Compose", "JSON Parser", "DevTools", "Performance Engine", "Mobile"],
-      metrics: [
-        { label: "Platform", value: "Native Android" },
-        { label: "File Handling", value: "Heavy Payloads" },
-        { label: "Visualization", value: "Collapsible Tree" }
-      ],
-      image: "/jsonflow.png",
-      images: [
-        "/jsonflow.png"
-      ],
-      githubUrl: "",
-      liveUrl: "",
-      featured: true,
-      highlights: [
-        "High-speed data processing engine capable of rendering large files smoothly without lag",
-        "Interactive collapsible tree view with syntax color-coding for effortless hierarchy exploration",
-        "Instant smart search to quickly locate specific keys, values, or deeply nested objects",
-        "Real-time JSON validation with precise error indicators and line pinpointing",
-        "One-click formatting, beautification, clipboard copying, and file export for rapid testing"
-      ]
     }
   ] as Project[],
 
   techStack: [
+    // Mobile
+    { name: "Kotlin", category: "mobile", icon: "Smartphone", badge: "Android Core" },
+    { name: "Jetpack Compose", category: "mobile", icon: "Layers", badge: "Modern UI" },
+    { name: "Android SDK & Services", category: "mobile", icon: "Zap", badge: "Background Ops" },
+    { name: "Firebase (FCM & Analytics)", category: "mobile", icon: "Activity", badge: "Production" },
+    { name: "Google Play Console", category: "mobile", icon: "Globe", badge: "Deployment" },
+    { name: "Flutter & Dart", category: "mobile", icon: "Code", badge: "Cross-Platform" },
+
     // Frontend
     { name: "React", category: "frontend", icon: "Code2", badge: "Core" },
     { name: "Next.js", category: "frontend", icon: "Globe", badge: "Framework" },
@@ -247,27 +287,19 @@ export const PORTFOLIO_DATA = {
 
     // Backend & DB
     { name: "Node.js", category: "backend", icon: "Server", badge: "Runtime" },
-    { name: "Express.js", category: "backend", icon: "Cpu", badge: "Backend" },
     { name: "Python", category: "backend", icon: "Terminal", badge: "Backend" },
     { name: "FastAPI", category: "backend", icon: "Zap", badge: "API Server" },
     { name: "PostgreSQL", category: "backend", icon: "Database", badge: "Database" },
-    { name: "SQLite", category: "backend", icon: "Database", badge: "Local DB" },
-    { name: "Prisma ORM", category: "backend", icon: "Layers", badge: "ORM" },
+    { name: "SQLite / Room", category: "backend", icon: "Database", badge: "Local Storage" },
     { name: "RESTful APIs", category: "backend", icon: "Network", badge: "Architecture" },
 
-    // Mobile
-    { name: "Flutter", category: "mobile", icon: "Layers", badge: "Cross-Platform" },
-    { name: "Dart", category: "mobile", icon: "Code", badge: "Language" },
-    { name: "Kotlin", category: "mobile", icon: "Smartphone", badge: "Android Core" },
-    { name: "Jetpack Compose", category: "mobile", icon: "Layers", badge: "Modern UI" },
-
-    // Tools & IoT
-    { name: "ESP32", category: "tools", icon: "Cpu", badge: "Microcontroller" },
-    { name: "IoT Sensors", category: "tools", icon: "Zap", badge: "Hardware" },
+    // Tools & AI
+    { name: "Claude Code", category: "tools", icon: "Sparkles", badge: "AI Agentic Core" },
     { name: "Git & GitHub", category: "tools", icon: "GitBranch", badge: "VCS" },
-    { name: "Leaflet / Geospatial", category: "tools", icon: "Globe", badge: "Mapping" },
-    { name: "Chart.js", category: "tools", icon: "Activity", badge: "Analytics" },
-    { name: "VS Code", category: "tools", icon: "Terminal", badge: "Editor" },
+    { name: "Docker", category: "tools", icon: "Box", badge: "Containers" },
+    { name: "Geospatial & Maps API", category: "tools", icon: "Globe", badge: "Telemetry" },
+    { name: "Firebase Crashlytics", category: "tools", icon: "Activity", badge: "Observability" },
+    { name: "VS Code / Android Studio", category: "tools", icon: "Terminal", badge: "Toolchain" },
   ] as TechItem[],
 
   experiences: [
@@ -313,7 +345,7 @@ export const PORTFOLIO_DATA = {
   ] as ExperienceItem[],
 
   cvDetails: {
-    summary: "Dedicated Informatics student at UIN Sunan Kalijaga Yogyakarta specializing in modern Fullstack Web Development (React, TypeScript, Next.js, Node.js) and Native & Cross-Platform Mobile Engineering (Flutter, Kotlin, Jetpack Compose) with IoT Integration capabilities (ESP32, REST APIs, SQL Server). Winner of multiple national web development and innovation competitions (INTECH FEST 2025, I/O FEST 2025, NIW 3.0). Experienced in architecting production-grade platforms, interactive data visualization, and scalable telemetry monitoring systems.",
+    summary: "High-velocity Mobile Engineer specializing in Native Android Development (Kotlin, Jetpack Compose) and AI-Augmented Software Workflows (Claude Code). Proven track record of shipping production-grade mobile applications to the Google Play Store with 600+ Daily Active Users (DAU). Deep practical experience in engineering resilient Android Background Services, real-time push notifications, geospatial/map telemetry, and data-driven product analytics via Firebase. Winner of multiple national software and innovation competitions (INTECH FEST 2025, I/O FEST 2025, NIW 3.0).",
     education: [
       {
         degree: "Bachelor of Science in Informatics / Computer Science (S1)",
@@ -323,13 +355,13 @@ export const PORTFOLIO_DATA = {
       }
     ],
     certifications: [
+      "Production Mobile Apps Published on Google Play Store (600+ DAU)",
       "2nd Place Winner (Juara 2) — Web Design Competition, INTECH FEST 2025 (Politeknik Negeri Bali)",
       "3rd Place Winner (Juara 3) — Web Development Competition, I/O FEST 2025 (Universitas Tarumanagara Jakarta)",
       "National Finalist — National Innovation Week 3.0 (Universitas Darussalam Gontor)",
-      "ESP32 End-to-End IoT Telemetry & Industrial Data Logging Systems",
-      "Mobile Application Development with Flutter & Native Kotlin",
-      "Fullstack Web Engineering with Next.js, React, Node.js & TypeScript",
-      "Interactive Data Visualization & Real-Time Monitoring Systems"
+      "Android Native Engineering with Kotlin & Jetpack Compose",
+      "AI-Augmented Development & Rapid Prototyping with Claude Code",
+      "Fullstack Web Engineering with Next.js, React, Node.js & TypeScript"
     ]
   }
 };

@@ -160,24 +160,6 @@ export const CvModal: React.FC<CvModalProps> = ({ isOpen, onClose }) => {
             </p>
           </div>
 
-          {/* Education */}
-          <div style={{ marginBottom: '1.75rem' }}>
-            <h2 style={{ fontSize: '1.05rem', fontWeight: 700, color: '#ffffff', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '0.75rem', borderLeft: '3px solid var(--accent-emerald)', paddingLeft: '0.65rem' }}>
-              Education
-            </h2>
-            {PORTFOLIO_DATA.cvDetails.education.map((edu, idx) => (
-              <div key={idx} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', flexWrap: 'wrap' }}>
-                <div>
-                  <div style={{ fontWeight: 700, color: '#ffffff', fontSize: '0.95rem' }}>{edu.degree}</div>
-                  <div style={{ color: '#94a3b8', fontSize: '0.85rem' }}>{edu.institution}</div>
-                </div>
-                <div style={{ color: 'var(--accent-cyan)', fontSize: '0.825rem', fontFamily: 'var(--font-mono)' }}>
-                  {edu.year} • <span style={{ color: 'var(--accent-emerald)', fontWeight: 600 }}>{edu.gpa}</span>
-                </div>
-              </div>
-            ))}
-          </div>
-
           {/* Core Technical Skills */}
           <div style={{ marginBottom: '1.75rem' }}>
             <h2 style={{ fontSize: '1.05rem', fontWeight: 700, color: '#ffffff', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '0.75rem', borderLeft: '3px solid var(--accent-indigo)', paddingLeft: '0.65rem' }}>
@@ -185,20 +167,20 @@ export const CvModal: React.FC<CvModalProps> = ({ isOpen, onClose }) => {
             </h2>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '0.75rem' }}>
               <div style={{ background: 'rgba(255, 255, 255, 0.03)', padding: '0.85rem', borderRadius: '10px' }}>
+                <div style={{ fontWeight: 700, fontSize: '0.85rem', color: '#ffffff', marginBottom: '0.25rem' }}>Mobile Engineering:</div>
+                <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>Native Android, Kotlin, Jetpack Compose, Android SDK, Background Services, WorkManager</div>
+              </div>
+              <div style={{ background: 'rgba(255, 255, 255, 0.03)', padding: '0.85rem', borderRadius: '10px' }}>
+                <div style={{ fontWeight: 700, fontSize: '0.85rem', color: '#ffffff', marginBottom: '0.25rem' }}>AI & Modern Tooling:</div>
+                <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>Claude Code (Agentic Workflows), Git/GitHub, Docker, Google Play Console, Firebase (Crashlytics, FCM)</div>
+              </div>
+              <div style={{ background: 'rgba(255, 255, 255, 0.03)', padding: '0.85rem', borderRadius: '10px' }}>
                 <div style={{ fontWeight: 700, fontSize: '0.85rem', color: '#ffffff', marginBottom: '0.25rem' }}>Frontend:</div>
                 <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>React, TypeScript, Next.js, Tailwind CSS, HTML5/CSS3</div>
               </div>
               <div style={{ background: 'rgba(255, 255, 255, 0.03)', padding: '0.85rem', borderRadius: '10px' }}>
                 <div style={{ fontWeight: 700, fontSize: '0.85rem', color: '#ffffff', marginBottom: '0.25rem' }}>Backend & Database:</div>
-                <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>Node.js, Express, Python, FastAPI, PostgreSQL, MySQL, Prisma</div>
-              </div>
-              <div style={{ background: 'rgba(255, 255, 255, 0.03)', padding: '0.85rem', borderRadius: '10px' }}>
-                <div style={{ fontWeight: 700, fontSize: '0.85rem', color: '#ffffff', marginBottom: '0.25rem' }}>Mobile Engineering:</div>
-                <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>Flutter, Dart, Kotlin, Jetpack Compose</div>
-              </div>
-              <div style={{ background: 'rgba(255, 255, 255, 0.03)', padding: '0.85rem', borderRadius: '10px' }}>
-                <div style={{ fontWeight: 700, fontSize: '0.85rem', color: '#ffffff', marginBottom: '0.25rem' }}>Tools & IoT Integration:</div>
-                <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>Git, GitHub, ESP32, IoT Sensors, Leaflet, Chart.js, VS Code, REST APIs</div>
+                <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>Node.js, Express, Python, FastAPI, PostgreSQL, SQLite / Room, RESTful APIs</div>
               </div>
             </div>
           </div>
@@ -228,10 +210,28 @@ export const CvModal: React.FC<CvModalProps> = ({ isOpen, onClose }) => {
             </div>
           </div>
 
+          {/* Education */}
+          <div style={{ marginBottom: '1.75rem' }}>
+            <h2 style={{ fontSize: '1.05rem', fontWeight: 700, color: '#ffffff', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '0.75rem', borderLeft: '3px solid var(--accent-emerald)', paddingLeft: '0.65rem' }}>
+              Education
+            </h2>
+            {PORTFOLIO_DATA.cvDetails.education.map((edu, idx) => (
+              <div key={idx} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', flexWrap: 'wrap' }}>
+                <div>
+                  <div style={{ fontWeight: 700, color: '#ffffff', fontSize: '0.95rem' }}>{edu.degree}</div>
+                  <div style={{ color: '#94a3b8', fontSize: '0.85rem' }}>{edu.institution}</div>
+                </div>
+                <div style={{ color: 'var(--accent-cyan)', fontSize: '0.825rem', fontFamily: 'var(--font-mono)' }}>
+                  {edu.year} • <span style={{ color: 'var(--accent-emerald)', fontWeight: 600 }}>{edu.gpa}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+
           {/* Certifications */}
           <div>
             <h2 style={{ fontSize: '1.05rem', fontWeight: 700, color: '#ffffff', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '0.75rem', borderLeft: '3px solid var(--accent-indigo)', paddingLeft: '0.65rem' }}>
-              Certifications & Training
+              Honors & Certifications
             </h2>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.35rem', fontSize: '0.85rem', color: '#cbd5e1' }}>
               {PORTFOLIO_DATA.cvDetails.certifications.map((c, i) => (
