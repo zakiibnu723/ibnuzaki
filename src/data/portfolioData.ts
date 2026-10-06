@@ -40,7 +40,7 @@ export const PORTFOLIO_DATA = {
     name: "Ibnu Zaki Al",
     title: "Mobile Engineer (Android & AI-Augmented Development)",
     subtitle: "Informatics • UIN Sunan Kalijaga Yogyakarta (2022 — 2026 Expected)",
-    shortBio: "Product-minded Mobile Engineer combining Native Android Development (Kotlin, Jetpack Compose), human-centered UI/UX design, and AI-Augmented workflows (Claude Code). National design award winner and creator of 5+ production mobile apps with 10,000+ total downloads and 600+ DAU—blending sharp Product-Market Fit (PMF) instincts, fluid interfaces, resilient background services, and rapid 1–3 day sprint delivery.",
+    shortBio: "Product-minded Mobile Engineer combining Native Android Development (Kotlin, Jetpack Compose), human-centered UI/UX design, and AI-Augmented workflows (Claude Code). National design award winner and creator of 5+ production mobile apps with 10,000+ total downloads and 600+ DAU—blending sharp Product-Market Fit (PMF) instincts, intuitive interfaces, data-driven Firebase analytics, and rapid 1–3 day sprint delivery.",
     location: "Indonesia (Open to On-site, Hybrid & Remote)",
     status: "Available for Hire",
     email: "zakiibnu723@gmail.com",
@@ -345,7 +345,7 @@ export const PORTFOLIO_DATA = {
   ] as ExperienceItem[],
 
   cvDetails: {
-    summary: "Product-minded Mobile Engineer combining Native Android Development (Kotlin, Jetpack Compose), human-centered UI/UX design, and AI-Augmented workflows (Claude Code). National design award winner with a strong instinct for Product-Market Fit (PMF) and rapid validation—proven by shipping 5+ production mobile applications to Google Play Store with 10,000+ total downloads and 600+ DAU. Deep technical expertise in engineering resilient Android Background Services, real-time map telemetry, and Firebase product analytics, translating complex concepts into high-retention software in 1–3 day sprint cycles.",
+    summary: "High-velocity, Product-Minded Mobile Engineer combining Native Android Development (Kotlin, Jetpack Compose), human-centered UI/UX design, and AI-Augmented workflows (Claude Code). National design award winner with a proven instinct for Product-Market Fit (PMF) and rapid validation—demonstrated by building and shipping 5+ production mobile applications to the Google Play Store surpassing 10,000+ total downloads and 600+ Daily Active Users (DAU). Adept at leveraging Firebase product analytics and user behavioral data to optimize retention funnels, turning ambiguous problem spaces into polished, high-impact mobile experiences in rapid 1–3 day sprint delivery cycles.",
     education: [
       {
         degree: "Bachelor of Science in Informatics / Computer Science (S1)",

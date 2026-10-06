@@ -139,7 +139,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenCv }) => {
                 marginBottom: '1.35rem',
               }}
             >
-              Hi, I'm <strong style={{ color: '#fff' }}>{PORTFOLIO_DATA.profile.name}</strong>. Product-minded Mobile Engineer combining <strong style={{ color: '#c7d2fe' }}>Native Android (Kotlin), human-centered UI/UX, and AI-Augmented workflows (Claude Code)</strong>. National design award winner and creator of 5+ production mobile apps with 10K+ downloads and 600+ DAU—blending sharp Product-Market Fit (PMF) instincts, fluid interfaces, resilient background services, and rapid 1–3 day sprint delivery.
+              Hi, I'm <strong style={{ color: '#fff' }}>{PORTFOLIO_DATA.profile.name}</strong>. Product-minded Mobile Engineer combining <strong style={{ color: '#c7d2fe' }}>Native Android (Kotlin), human-centered UI/UX, and AI-Augmented workflows (Claude Code)</strong>. National design award winner and creator of 5+ production mobile apps with 10K+ downloads and 600+ DAU—blending sharp Product-Market Fit (PMF) instincts, intuitive interfaces, data-driven Firebase analytics, and rapid 1–3 day sprint delivery.
             </p>
 
             {/* Quick Action CTAs */}
