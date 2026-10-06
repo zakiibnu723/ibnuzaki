@@ -40,7 +40,7 @@ export const PORTFOLIO_DATA = {
     name: "Ibnu Zaki Al",
     title: "Mobile Engineer (Android & AI-Augmented Development)",
     subtitle: "Informatics • UIN Sunan Kalijaga Yogyakarta (2022 — 2026 Expected)",
-    shortBio: "Product-minded Mobile Engineer combining Native Android Development (Kotlin, Jetpack Compose), human-centered UI/UX design, and AI-Augmented workflows (Claude Code). National design award winner and creator of 5+ production mobile apps with 10,000+ total downloads and 600+ DAU—blending sharp Product-Market Fit (PMF) instincts, intuitive interfaces, data-driven Firebase analytics, and rapid 1–3 day sprint delivery.",
+    shortBio: "Product-minded Mobile Engineer specializing in Native Android Development (Kotlin, Jetpack Compose) and AI-Augmented Software Workflows (Claude Code). Proven track record of building and shipping production-grade mobile applications to the Google Play Store with 10,000+ total downloads and 600+ Daily Active Users (DAU). Deep technical expertise in engineering resilient Android Background Services, real-time map telemetry, and Firebase product analytics. Full end-to-end ownership spanning product design, mobile architecture, backend integration, and store release in rapid 1–3 day sprint cycles.",
     location: "Indonesia (Open to On-site, Hybrid & Remote)",
     status: "Available for Hire",
     email: "zakiibnu723@gmail.com",
@@ -345,7 +345,7 @@ export const PORTFOLIO_DATA = {
   ] as ExperienceItem[],
 
   cvDetails: {
-    summary: "High-velocity, Product-Minded Mobile Engineer combining Native Android Development (Kotlin, Jetpack Compose), human-centered UI/UX design, and AI-Augmented workflows (Claude Code). National design award winner with a proven instinct for Product-Market Fit (PMF) and rapid validation—demonstrated by building and shipping 5+ production mobile applications to the Google Play Store surpassing 10,000+ total downloads and 600+ Daily Active Users (DAU). Adept at leveraging Firebase product analytics and user behavioral data to optimize retention funnels, turning ambiguous problem spaces into polished, high-impact mobile experiences in rapid 1–3 day sprint delivery cycles.",
+    summary: "Product-minded Mobile Engineer specializing in Native Android Development (Kotlin, Jetpack Compose) and AI-Augmented Software Workflows (Claude Code). Proven track record of building and shipping production-grade mobile applications to the Google Play Store with 10,000+ total downloads and 600+ Daily Active Users (DAU). Deep technical expertise in engineering resilient Android Background Services, real-time map telemetry, and Firebase behavioral analytics. Full end-to-end ownership spanning product design, mobile architecture, backend integration, and store release in rapid 1–3 day sprint cycles.",
     education: [
       {
         degree: "Bachelor of Science in Informatics / Computer Science (S1)",
