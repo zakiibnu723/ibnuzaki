@@ -1,0 +1,445 @@
+Junior/Mid Full stack Developer
+
+Key Responsibilities
+
+Mobile Development: Design, build, and maintain high-performance cross-platform mobile applications (iOS & Android) using Flutter.
+
+Web Frontend Development: Develop responsive, dynamic, and SEO-friendly web interfaces using Next.js.
+
+API Integration: Connect web and mobile applications with backend services via existing or newly developed REST APIs.
+
+Backend Support (As needed): Assist in tweaking, maintaining, or creating lightweight REST API endpoints using Node.js, Express, and MongoDB to support frontend/mobile requirements.
+
+Collaboration & Quality: Collaborate with UI/UX designers to ensure accurate design implementation, perform debugging, optimize application performance, and conduct code testing.
+
+Requirements
+
+Proven working experience of 2 - 3 years as a Frontend Developer, Mobile Developer, or Fullstack Developer.
+
+Mobile Expertise (Flutter): Strong proficiency in the Flutter framework and Dart programming language. Solid understanding of state management (e.g., Provider, Riverpod, BLoC, or GetX) and mobile app lifecycles.
+
+Web Frontend Expertise: Proficient in HTML, CSS, JavaScript (ES6+), and highly familiar with the Next.js / React.js ecosystem.
+
+Backend & Database Understanding: Functional experience or understanding of building and maintaining REST APIs using Node.js and Express, as well as familiarity with basic NoSQL database operations (MongoDB).
+
+Integration & Networking: Experienced in consuming REST APIs, handling authentication (e.g., JWT/OAuth), and managing asynchronous data.
+
+Proficient in using version control systems (Git/GitHub/GitLab).
+
+Strong problem-solving skills and a keen eye for design details (pixel-perfect implementation).
+
+Nice to Have
+
+Experience using TypeScript on both the frontend and backend
+
+A portfolio of Flutter applications published on the Google Play Store or Apple App Store.
+
+Experience with design hand-off tools like Figma.
+
+Basic understanding of CI/CD pipelines and the deployment process for web and mobile applications
+
+
+
+
+
+
+
+
+Junior Software Developer / Staff IT
+
+Kualifikasi:
+Pendidikan minimal S1 dengan background Teknologi Informasi, seperti Teknik Informatika, Sistem Informasi, Ilmu Komputer, atau jurusan relevan.
+Terbuka untuk Fresh Graduate atau kandidat dengan pengalaman kerja maksimal 1–2 tahun.
+Memiliki pemahaman dasar mengenai Software Development dan pemrograman.
+Menguasai dasar pemrograman menggunakan Python.
+Memiliki pengalaman atau pemahaman mengenai Django / Django REST Framework menjadi nilai tambah.
+Memahami JavaScript dan/atau TypeScript.
+Memiliki pemahaman dasar mengenai React.js atau Next.js.
+Memahami konsep dasar REST API.
+Memahami dasar database relasional seperti PostgreSQL atau MySQL.
+Memahami penggunaan Git (GitHub/GitLab).
+Memiliki kemampuan problem solving dan debugging yang baik.
+Mampu belajar dengan cepat dan memiliki rasa ingin tahu terhadap teknologi.
+Mampu bekerja secara individu maupun dalam tim.
+Memiliki portfolio, GitHub, atau project pribadi menjadi nilai tambah. \
+Job Description:
+Membantu pengembangan dan maintenance aplikasi internal perusahaan.
+Mengembangkan fitur Backend menggunakan Python.
+Membantu pengembangan Frontend menggunakan React.js / Next.js.
+Melakukan integrasi API antara Frontend dan Backend. Membantu melakukan debugging dan troubleshooting aplikasi.
+Membantu pengembangan fitur baru sesuai kebutuhan bisnis.
+Melakukan perbaikan dan improvement pada sistem yang sudah berjalan. Berkolaborasi dengan tim dalam proses pengembangan aplikasi.
+Mempelajari dan mengikuti standar coding serta development workflow yang digunakan perusahaan.
+Technical Skills yang Diutamakan:
+Backend
+Python
+Django / Django REST Framework
+REST API Postgre
+SQL / MySQL
+Frontend
+JavaScript / TypeScript
+React.js
+Next.js
+Tools
+Git / GitHub / GitLab
+Docker (nilai tambah)
+Linux (nilai tambah)
+
+Kandidat Fresh Graduate dengan portfolio atau pengalaman mengerjakan project pribadi juga dipersilakan untuk melamar.
+
+
+
+
+
+
+Software Engineer
+We are looking for an experienced Software Engineer who combines strong engineering fundamentals with product thinking, problem-solving, and end-to-end ownership.
+Our team uses AI extensively in software development, so we are looking for someone who can use AI tools effectively while still applying strong technical judgment to review, test, debug, and improve the final solution.
+Job Responsibilities
+Understand user needs and translate them into practical product and technical solutions.
+Design and develop reliable applications, APIs, data models, and system workflows.
+Use AI coding tools/agents to support development and improve delivery speed.
+Review AI-generated code for correctness, security, performance, and maintainability.
+Troubleshoot and resolve issues across frontend, backend, databases, integrations, and production environments.
+Own projects from discovery and development through deployment, user adoption, and improvement.
+Requirements
+Minimum 3 years of professional software engineering experience.
+Strong software engineering fundamentals and technical judgment.
+Strong problem-solving and debugging skills.
+Good understanding of APIs, databases/SQL, frontend and backend architecture, authentication, testing, and system design.
+Strong product mindset and willingness to work directly with users.
+Experience with AI-assisted coding tools, or strong willingness to adopt them.
+Able to work independently and take ownership of projects end-to-end.
+Fast learner with good communication and collaboration skills.
+Familiar or have experience in TypeScript, Next.js, React / React Native / Expo, NestJS, MySQL / SQLite, Drizzle / Sequelize, AWS, Docker, and GitHub.
+Strong fundamentals, ownership, product judgment, and the ability to learn quickly
+
+
+
+
+Job Description
+Merancang, mengembangkan, dan memelihara aplikasi web end-to-end dengan memanfaatkan AI Agent sebagai bagian dari proses pengembangan dan solusi aplikasi.
+Memanfaatkan AI Agent, LLM, dan MCP untuk meningkatkan efisiensi development, otomasi workflow, integrasi tools, serta penyelesaian masalah teknis
+Melakukan debugging, testing, code review, dan optimasi performa aplikasi
+Minimum Qualifications
+Memiliki pengalaman profesional 1–3 tahun sebagai Developer
+Berpengalaman menggunakan Vue.js atau React.js untuk frontend dan Golang untuk backend
+Berpengalaman membangun REST API dan aplikasi web secara end-to-end
+Memahami database relational seperti PostgreSQL/MySQL serta NoSQL seperti MongoDB/Redis
+Handal dalam memanfaatkan AI Agent, LLM, dan MCP untuk mendukung pengembangan aplikasi dan otomasi workflow
+Familiar dengan message broker/message queue seperti RabbitMQ, Kafka, atau Google Pub/Sub
+Mampu melakukan debugging, testing, code review, dan optimasi performa aplikasi
+Memiliki kemampuan analitis, komunikasi, dan kolaborasi yang baik
+Mampu bekerja secara mandiri serta cepat mempelajari teknologi baru
+Nilai Tambah:
+Pernah membangun aplikasi berbasis AI, chatbot, knowledge assistant, atau workflow automation
+Diutamakan memiliki pengalaman atau kompetensi dasar dalam Mobile Programming
+Memahami atau pernah mengimplementasikan RAG dan vector database
+Familiar dengan Git, Docker, dan cloud platform
+Memiliki portofolio proyek Full Stack atau berbasis AI yang relevan
+
+
+
+
+AI Automation Engineer (CRM & Systems) — Remote, Indonesia Robo Loans · Full-time · Remote, anywhere in Indonesia · IDR 10–20 million a month (gross) · 2 positions
+
+About us Robo Loans is an Australian car and asset finance broker. We run on systems: our CRM, website, messaging and AI agents do much of the work a back office would. Our founder wants a builder who works closely with him, remotely.
+
+The role You'll own the systems that run the business week to week. You'll build automations, connect our tools, and put AI agents to work where they save time. You'll ship something every week.
+
+What you'll do
+
+Build and maintain CRM automations and integrations (Zoho CRM, webhooks, APIs)
+
+Build AI agents and workflows (OpenAI or Claude APIs, n8n or Make) that sort leads and hand them to brokers at the right moment
+
+Run our web forms and sites (Netlify or similar) and keep lead tracking accurate (UTMs, Meta Pixel and Conversions API)
+
+Connect SMS and WhatsApp messaging (Twilio or WhatsApp Business API)
+
+Write short notes on how things work, and demo what you've shipped
+
+What you need
+
+About 3–5 years building web systems, including at least one you owned end to end
+
+JavaScript/TypeScript or Python, and confidence with APIs, webhooks and scripts
+
+Hands-on use of an automation tool (n8n, Make or Zapier) and at least one AI/LLM project that went live
+
+Professional-level spoken and written English: you'll work every day with Australian briefs, processes and colleagues
+
+Happy to show your work: commits, short demo videos, a shared ticket board
+
+Able to work remotely from anywhere in Indonesia
+
+Nice to have: Zoho CRM, Netlify or Vercel, Twilio, Meta Conversions API, fintech or lending experience.
+
+What we offer
+
+IDR 10–20 million a month gross, depending on experience and a paid trial task
+
+Real ownership, AI work every week, and direct work with the founder on an Australian business
+
+Work remotely from anywhere in Indonesia
+
+How to apply: Email ••••@roboloans.ai with the subject "AI Automation Engineer". Send your CV or LinkedIn, one link to something you've built (GitHub, a live site or a demo video), and when you could start.
+
+Robo Loans hires on skills. We don't screen on gender, religion or marital status.
+
+
+
+
+
+About the role
+
+We are looking for an AI Full Stack Developer who is passionate about building end-to-end AI solutions that combine modern software engineering, Large Language Models (LLMs), Machine Learning, and intelligent automation. This role is responsible for designing, developing, deploying, and optimizing scalable AI-powered applications that solve real business challenges while ensuring performance, security, and maintainability.
+
+Key responsibilities
+
+Design, develop, and maintain end-to-end AI-powered web applications using modern full-stack technologies.
+
+End-to-end design, development, and maintenance of independent microservices and modular frontends, including OCR-based document processing, secure and high-availability system topologies, and PDP-compliant low-latency infrastructure.
+
+Build and deploy AI solutions leveraging Large Language Models (LLMs), Machine Learning, Retrieval-Augmented Generation (RAG), and AI Agents.
+
+Develop efficient, scalable, and reusable AI tools and frameworks to improve business productivity and automation.
+
+Design, train, evaluate, and deploy Machine Learning models for prediction, classification, recommendation, and intelligent decision support.
+
+Build secure backend services, REST/GraphQL APIs, and responsive frontend applications.
+
+Integrate AI solutions with enterprise systems, databases, third-party APIs, and cloud platforms.
+
+Optimize AI applications for performance, scalability, accuracy, latency, and cost efficiency.
+
+Collaborate with Product Owners, UI/UX Designers, Data Engineers, and business stakeholders to translate business requirements into AI solutions.
+
+Implement CI/CD pipelines, containerization, monitoring, and DevOps best practices for AI applications.
+
+Qualification:
+
+Bachelor's degree in Computer Science, Software Engineering, Information Technology, or a related field.
+
+Minimum 5 years of experience in Full Stack Software Development, with proven experience delivering production-grade applications.
+
+Proven hands-on experience building AI applications using Large Language Models (LLMs) such as OpenAI, Claude, Gemini, Azure OpenAI, AWS Bedrock, or open-source LLMs.
+
+Strong expertise in Machine Learning, including model development, training, evaluation, deployment, and MLOps practices.
+
+Experience with AI frameworks such as LangChain, LangGraph, LlamaIndex, AI Agents, Prompt Engineering, Function Calling, and Retrieval-Augmented Generation (RAG).
+
+Proficiency in Python and JavaScript/TypeScript, with experience in frontend frameworks (React/Next.js) and backend frameworks (FastAPI, Node.js, or .NET).
+
+Experience working with relational databases, NoSQL databases, and vector databases.
+
+Familiarity with cloud platforms (Azure, AWS, or GCP), Docker, Kubernetes, Git, and CI/CD pipelines.
+
+Strong understanding of software architecture, API design, security best practices, and scalable application development.
+
+Excellent analytical, problem-solving, and communication skills, with the ability to work independently and thrive in a fast-paced, agile environment.
+
+
+
+
+Mobile Engineer
+
+12.000.000-16.000.000
+
+Key Responsibilities
+Develop and maintain mobile applications to support Dash Electric's business and logistics operations.
+Build and implement new mobile features based on business and product requirements.
+Collaborate with Product, Engineering, and other cross-functional teams to develop and improve mobile applications.
+Ensure application performance, reliability, and scalability across mobile platforms.
+Monitor and troubleshoot application performance and technical issues.
+Manage mobile application deployment and updates through Play Store and App Store.
+Implement appropriate monitoring and observability practices for mobile applications.
+Utilize Firebase and other relevant tools to support application development and monitoring.
+Leverage AI-assisted development tools to improve engineering productivity and development workflows.
+Support other engineering initiatives and technical requirements as needed.
+Qualifications
+Bachelor's or Master's degree in Computer Science, Information Technology, Software Engineering, or a related field.
+Minimum 3 years of professional experience in mobile application development.
+Strong experience with Kotlin and Swift.
+Experience developing and maintaining applications for Android and/or iOS platforms.
+Experience with Docker and modern software development practices.
+Experience with Play Store and App Store deployment processes.
+Familiarity with application observability and monitoring.
+Experience with Firebase or similar mobile development and monitoring tools.
+Strong proficiency in Claude Code and the ability to effectively leverage it in software development workflows.
+Strong communication, negotiation, and interpersonal skills.
+Able to work independently and collaborate effectively in a fast-paced environment.
+
+
+
+AI software Engineer
+We're looking for an AI enthusiast who loves learning, experimenting, building, and turning ideas into real-world solutions. If you're curious about the latest AI technologies, enjoy solving complex problems, and want to create products that impact thousands of users, we'd love to meet you.
+
+This role is perfect for someone who wants to grow alongside a fast-moving team, work on meaningful AI initiatives, and help shape how AI is integrated across Travelio's products and operations.
+
+What You'll Do:
+You'll be part of our AI Development team, building and integrating AI-powered features, workflows, and data solutions across the business.
+
+Responsibilities
+Build and maintain AI-powered features that solve real business problems.
+Design, test, and optimize prompts to improve AI performance and reliability.
+Integrate LLMs and AI services into our products using Python, FastAPI, and modern backend technologies.
+Connect AI solutions with databases and internal systems, including MySQL, MongoDB, and ClickHouse.
+Develop evaluation frameworks, accuracy benchmarks, and monitoring tools to ensure AI outputs are production-ready.
+Build and maintain data pipelines that power AI features and business insights.
+Identify data quality issues, anomalies, and hidden risks before they impact products or reporting.
+Collaborate closely with engineers, product teams, and business stakeholders to bring AI ideas to life.
+Write clean, maintainable code and documentation that others can easily build upon.
+
+Requirements:
+2–4 years of experience in software engineering, data engineering, or related fields.
+Hands-on experience implementing AI or LLM-powered solutions.
+Strong programming skills in Python and JavaScript.
+Familiarity with REST APIs and system integrations.
+Experience working with relational databases (MySQL) and NoSQL databases (MongoDB).
+Strong analytical and problem-solving skills, with the ability to break down complex problems into practical solutions.
+Understanding of prompt engineering concepts, including: Structured prompting, Few-shot prompting, JSON outputs, Interative prompt optimization
+Experience using Git, participating in code reviews, and maintaining clear documentation.
+Ability to work independently while collaborating effectively within a team.
+Strong communication skills and a proactive mindset.
+Experience building and shipping AI products to production.
+Familiarity with ClickHouse, Dagster, dbt, Docker, Next.js, or TypeScript.
+Experience with LLM evaluation, observability, and monitoring frameworks.
+Knowledge of travel, hospitality, marketplace, or property technology businesses.
+Willing to full Work From Office (WFO) at Pondok Indah, South Jakarta.
+
+
+
+
+
+
+About the Role
+25.000.000-35.000.000
+We are looking for a talented Full Stack Software Engineer to join our engineering team. In this
+role, you will design, build, and maintain scalable web applications and services across the
+entire technology stack. You will collaborate closely with product managers, designers, and
+fellow engineers to deliver high-quality software that powers our platform and delights our users.
+Responsibilities
+Design, develop, and maintain full stack applications using TypeScript across frontend
+and backend services.
+Build and manage containerized applications and development environments with
+Docker.
+Design, implement, and optimize PostgreSQL database schemas, queries, and
+migrations.
+Collaborate with cross-functional teams to translate product requirements into robust,
+scalable technical solutions.
+Write clean, well-tested, and well-documented code following engineering best practices.
+Participate in code reviews and contribute to improving team development processes
+and tooling.
+Troubleshoot and resolve production issues, ensuring high availability and performance
+of services.
+Contribute to architectural decisions and help shape the technical direction of the
+platform.
+
+Required Qualifications
+3+ years of professional experience in full stack software development.
+Strong proficiency in TypeScript for both frontend (React, Next.js, or similar) and
+backend (Node.js) development.
+Hands-on experience with Docker for containerization, orchestration, and local
+development workflows.
+Solid experience designing and working with PostgreSQL, including schema design,
+query optimization, and migrations.
+Familiarity with RESTful APIs and/or GraphQL.
+Experience with version control systems (Git) and CI/CD pipelines.
+Strong problem-solving skills and a passion for writing high-quality, maintainable code.
+Excellent communication and collaboration skills in a team environment.
+Nice to Have
+Experience with advanced PostgreSQL features such as trigger functions, Row Level
+Security (RLS), stored procedures, and database access policies.
+Experience with Deno as an alternative or complement to Node.js for backend
+development.
+Experience with AWS services (EC2, S3, Lambda, RDS, ECS, or similar).
+Proficiency or working knowledge of Golang for building performant backend services or
+microservices.
+Proficiency or working knowledge of Rust, particularly for maintaining and developing
+our desktop application built with Tauri.
+Experience with 3D-related engineering, such as WebGL, Three.js, Unity, Unreal
+Engine, or real-time rendering pipelines.
+Familiarity with infrastructure-as-code tools (Terraform, CloudFormation) and
+Kubernetes.
+Experience with performance profiling, monitoring, and observability tools.
+
+
+
+
+Web & AI Developer I Full-time Remote Position
+700-950$ (
+We are looking for a practical and motivated Web & AI Developer to join our IT team in a full-time remote role. This position suits someone with hands-on development experience who already uses AI coding tools such as Claude in their daily work, and who wants to grow further in web development, backend development, and building internal tools. The role offers flexibility in daily working hours, but it also requires reliability, clear communication, and availability when urgent website or system issues come up.
+The role covers two areas. The first is our websites: maintaining and updating WordPress and Elementor sites, supporting Shopify, and working on custom-coded pages. The second is our internal tools: building, maintaining, and improving the scripts, integrations, and automations the team relies on every day, such as reporting and payroll tools, connections between HR, finance, and point-of-sale systems, and AI-assisted workflows. Hands-on experience building with Claude is required for this position.
+Key Responsibilities:
+• Build, maintain, and improve internal tools, scripts, and automations used across the business.
+• Edit and extend existing internal tools when requirements change, including tools that were originally built with AI assistance.
+• Develop and maintain integrations between our systems using REST APIs, webhooks, and data files such as CSV and Excel.
+• Use Claude and other AI coding tools to write, review, debug, and document code.
+• Build and improve AI-assisted workflows, including prompts, Claude Projects and skills, and connections between AI tools and our systems through APIs and MCP servers.
+• Review and test AI-generated code before it goes live, and make sure you understand what it does.
+• Deploy and maintain small apps and services on cloud hosting, including environment variables, logs, and scheduled jobs.
+• Work with WordPress and Elementor to maintain and update websites.
+• Create new pages, blog posts, and landing pages based on existing templates and design style.
+• Support updates on Shopify websites, products, pages, and content where needed.
+• Make front-end changes using HTML, CSS, and JavaScript, and back-end changes in PHP where required.
+• Work with hosting environments, cPanel, domains, DNS, and SSL.
+• Troubleshoot website and system issues, including bugs, broken layouts, errors, and failed automations.
+• Test website changes on desktop and mobile, and test internal tools with real data, before publishing.
+• Keep short, clear documentation for the tools and automations you build or change.
+• Assist the team with general IT questions and technical problems.
+• Support urgent or ad-hoc IT, website, and system issues when needed, including occasional weekend support for important technical problems.
+• Work with operations, finance, marketing, and content teams to understand what they need from our tools and websites.
+Required Skills and Experience:
+• Hands-on web development experience, with real projects you can show us.
+• Hands-on experience building with Claude, for example Claude Code, Claude Projects, or the Claude API. This is a requirement for the role.
+• Backend development experience in at least one of Python, Node.js (JavaScript or TypeScript), or PHP.
+• Experience working with REST APIs, JSON, and webhooks.
+• Ability to read, understand, and fix AI-generated code rather than only copying and pasting it.
+• Basic knowledge of databases and SQL.
+• Experience with Git and version control.
+• Experience working with WordPress and Elementor.
+• Good knowledge of HTML, CSS, and JavaScript.
+• Basic understanding of hosting, cPanel, DNS, and SSL.
+• Experience with Shopify or strong willingness to learn it quickly.
+• Good English communication skills, written and spoken.
+• Ability to follow instructions carefully and ask questions when something is unclear.
+• Strong attention to detail and careful handling of business data, including staff and finance records.
+• Ability to work remotely and manage tasks responsibly.
+• Flexibility to handle ad-hoc or urgent IT situations, including occasional weekend work when required.
+• Comfortable using time-monitoring software during working hours.
+Who Is This Role For?
+This role is ideal for someone who enjoys practical technical work and already builds with AI every day. You do not need to be a senior developer, but you should be comfortable moving between websites and backend code, learning new systems quickly, and solving technical problems on your own.
+We are looking for someone who uses AI to work faster and still checks the result properly. The right candidate is reliable, organized, and detail-oriented, takes ownership of tasks, communicates clearly with the team, and completes changes carefully.
+Work Schedule & Flexibility
+Team members can organize their own daily working hours as long as the required full-time hours are completed, tasks are delivered on time, and communication with the team remains clear.
+Some flexibility is required for urgent IT, website, or system issues. Important problems may sometimes need to be handled outside standard working hours, including occasional weekend support.
+Time-monitoring software is required and must be used during working hours.
+Employment Details
+Position
+Web & AI Developer
+Work setup
+Remote
+Employment type
+Full-time
+Experience level
+Junior to mid-level, with hands-on Claude experience
+Language
+English
+Salary range
+USD 500 to 1,000 per month, depending on experience and skill level
+Work schedule
+Flexible daily working hours, as long as full-time hours are completed and tasks are delivered on time
+Urgent support
+Ad-hoc availability may be required for urgent IT, website, or system issues, including occasional weekend support
+Time monitoring
+Time-monitoring software is required during working hours
+How to Apply
+Please send your CV and a short introduction explaining your experience with web development, backend development, and any internal tools or automations you have built.
+Tell us how you use Claude in your work: which parts you use (for example Claude Code, Projects, or the API) and one concrete example of something you built or fixed with it. Applications without this will not be considered.
+If available, please also include links to websites, GitHub repositories, projects, or examples of work you have contributed to.
+
+
+
+
+

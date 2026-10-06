@@ -10,6 +10,7 @@ export interface Project {
   metrics: { label: string; value: string }[];
   image: string;
   images?: string[];
+  icon?: string;
   githubUrl: string;
   liveUrl?: string;
   hideExternalLinks?: boolean;
@@ -62,14 +63,15 @@ export const PORTFOLIO_DATA = {
       subtitle: "Real-Time Family Telemetry & Interactive 3D Geospatial App",
       category: "mobile",
       categoryLabel: "Mobile Engineering & Geolocation",
-      description: "Real-time device location tracking and safety telemetry mobile app featuring interactive 3D vector maps with MapLibre, persistent battery-efficient background location services, and instant geofencing alerts.",
-      longDescription: "Care360 delivers continuous family location intelligence with zero tracking dropouts. Built with a Single Activity Multi-Screen Compose State Flow architecture, the app renders full-screen 3D vector maps (MapLibre Native + CARTO Voyager) at a 52° cinematic tilt with dynamic fly-to camera interpolation. Engineered persistent Android Background Services with adaptive battery-safe polling, bi-directional WebSocket coordinate ingestion, a 3-second hold emergency SOS with haptic feedback, and automated safe-zone geofence boundary alerts.",
+      description: "Real-time family location tracking and safety telemetry mobile app featuring interactive 3D vector maps with MapLibre, persistent battery-efficient background location services, child speed telemetry (24 km/h), and instant safe-zone geofencing alerts.",
+      longDescription: "Care360 delivers continuous family location intelligence with zero tracking dropouts wrapped in an ultra-clean, high-contrast Light Theme interface. Built with a Single Activity Multi-Screen Compose State Flow architecture, the app renders full-screen 3D vector maps (MapLibre Native + CARTO Voyager) at a 52° cinematic tilt with dynamic fly-to camera interpolation. Engineered persistent Android Background Services with adaptive battery-safe polling, bi-directional WebSocket coordinate ingestion, a 3-second hold emergency SOS with haptic feedback, and automated safe-zone geofence boundary alerts.",
       tags: ["Android", "Kotlin", "Jetpack Compose", "MapLibre Native", "3D Vector Maps", "Background Services", "WebSockets", "Supabase"],
       metrics: [
         { label: "Map Engine", value: "3D MapLibre" },
         { label: "Telemetry", value: "Real-Time GPS & WS" },
         { label: "Lifecycle", value: "Persistent Background" }
       ],
+      icon: "/app-icons/care360-logo.png",
       image: "/care360.png",
       images: [
         "/care360.png"
@@ -81,9 +83,9 @@ export const PORTFOLIO_DATA = {
       highlights: [
         "Architected persistent Android Background Location Services ensuring continuous coordinate ingestion during deep-sleep OS states",
         "Integrated MapLibre Native SDK with CARTO Voyager vector tiles, 52° cinematic tilt angle, 3D buildings, and dynamic camera fly-to interpolation",
-        "Built safe-zone geofencing (emerald & cyan neon radius perimeters) with instant boundary crossing alerts via WebSockets & Supabase",
-        "Implemented 3-second hold anti-accidental emergency SOS button with haptic feedback and real-time alert dispatch",
-        "Designed Single Activity Compose State Flow architecture with reactive battery telemetry and live device status"
+        "Built safe-zone geofencing (emerald perimeter radius) with instant boundary crossing alerts via WebSockets & Supabase",
+        "Implemented real-time child telemetry tracking with live speed (24 km/h) and battery status in an ultra-clean Light Theme Material 3 UI",
+        "Designed 3-second hold anti-accidental emergency SOS button with haptic feedback and real-time alert dispatch"
       ]
     },
     {
@@ -100,9 +102,11 @@ export const PORTFOLIO_DATA = {
         { label: "Receiver Setup", value: "Zero-Install (Web)" },
         { label: "Throughput", value: "Gigabit LAN Speed" }
       ],
+      icon: "/app-icons/aerodrop-logo.png",
       image: "/airdrop-x.png",
       images: [
-        "/airdrop-x.png"
+        "/airdrop-x.png",
+        "/airdrop-x-2.png"
       ],
       githubUrl: "",
       liveUrl: "",
@@ -130,6 +134,7 @@ export const PORTFOLIO_DATA = {
         { label: "Stitching", value: "Smart Header Crop" },
         { label: "Stability", value: "Zero-OOM Pipeline" }
       ],
+      icon: "/app-icons/scrollsnap-icon.png",
       image: "/scrollsnap.png",
       images: [
         "/scrollsnap.png"
@@ -152,17 +157,19 @@ export const PORTFOLIO_DATA = {
       subtitle: "Real-Time Screen Capture to Animated WhatsApp Sticker Studio (Play Store Live)",
       category: "mobile",
       categoryLabel: "Mobile Engineering & Media",
-      description: "An on-screen content capture studio that converts videos, reels, and screen clips into compliant static & animated WhatsApp WebP stickers in seconds, featuring a filmstrip trimmer and zero-GC capture pipeline.",
-      longDescription: "Stick.it transforms any on-screen video or social media clip into compliant WhatsApp stickers in seconds. Engineered for Android 15 & 16 (Target SDK 35/36), replacing legacy synchronous capture with a high-performance MediaProjection VirtualDisplay pipeline, direct-buffer row extraction, and parallel disk writers that eliminate screen flickering and GC thrashing. Features a floating speed-dial bubble, CapCut-style 3.0s filmstrip video trimmer, an Adaptive WebP 512x512 encoder, and direct pack export via StickerContentProvider.",
+      description: "An on-screen content capture studio and sticker pack manager that converts videos, reels, and screen clips into compliant static & animated WhatsApp WebP stickers in seconds, featuring a collections studio and filmstrip trimmer.",
+      longDescription: "Stick.it transforms any on-screen video or social media clip into compliant WhatsApp stickers in seconds. Engineered for Android 15 & 16 (Target SDK 35/36), replacing legacy synchronous capture with a high-performance MediaProjection VirtualDisplay pipeline, direct-buffer row extraction, and parallel disk writers that eliminate screen flickering and GC thrashing. Features a full sticker pack collections studio, floating speed-dial bubble, CapCut-style 3.0s filmstrip video trimmer, an Adaptive WebP 512x512 encoder, and direct pack export via StickerContentProvider.",
       tags: ["Android", "Kotlin", "Target SDK 35/36", "MediaProjection", "Animated WebP", "StickerContentProvider", "WhatsApp API", "Play Store Live"],
       metrics: [
         { label: "Target SDK", value: "Android 15/16 Ready" },
         { label: "Encoding", value: "Adaptive 512px WebP" },
         { label: "Pipeline", value: "Zero-GC Direct Buffer" }
       ],
+      icon: "/app-icons/stickit-logo.png",
       image: "/stickercapture.png",
       images: [
-        "/stickercapture.png"
+        "/stickercapture.png",
+        "/stickercapture-2.png"
       ],
       githubUrl: "",
       liveUrl: "",
@@ -190,6 +197,7 @@ export const PORTFOLIO_DATA = {
         { label: "Payload Handling", value: "Multi-MB Lag Free" },
         { label: "Validation", value: "Real-Time Pinpoint" }
       ],
+      icon: "/app-icons/jsonflow-logo.png",
       image: "/jsonflow.png",
       images: [
         "/jsonflow.png"

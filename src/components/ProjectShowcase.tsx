@@ -263,13 +263,32 @@ export const ProjectShowcase: React.FC = () => {
 
                 {/* Project Details */}
                 <div style={{ padding: '1.5rem', display: 'flex', flexDirection: 'column', flex: 1 }}>
-                  <div style={{ marginBottom: '0.35rem', color: 'var(--accent-cyan)', fontSize: '0.78rem', fontFamily: 'var(--font-mono)' }}>
-                    {project.subtitle}
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.85rem', marginBottom: '0.85rem' }}>
+                    {project.icon && (
+                      <img
+                        src={project.icon}
+                        alt={`${project.title} icon`}
+                        style={{
+                          width: '46px',
+                          height: '46px',
+                          borderRadius: '12px',
+                          objectFit: 'cover',
+                          flexShrink: 0,
+                          boxShadow: '0 4px 14px rgba(0, 0, 0, 0.45)',
+                          border: '1px solid rgba(255, 255, 255, 0.16)',
+                          background: 'rgba(255, 255, 255, 0.04)',
+                        }}
+                      />
+                    )}
+                    <div style={{ flex: 1, minWidth: 0 }}>
+                      <div style={{ marginBottom: '0.2rem', color: 'var(--accent-cyan)', fontSize: '0.75rem', fontFamily: 'var(--font-mono)', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                        {project.subtitle}
+                      </div>
+                      <h3 style={{ fontSize: '1.25rem', fontWeight: 700, margin: 0, color: '#ffffff', lineHeight: 1.25 }}>
+                        {project.title}
+                      </h3>
+                    </div>
                   </div>
-
-                  <h3 style={{ fontSize: '1.35rem', fontWeight: 700, marginBottom: '0.65rem', color: '#ffffff' }}>
-                    {project.title}
-                  </h3>
 
                   <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', lineHeight: 1.6, marginBottom: '1.25rem', flex: 1 }}>
                     {project.description}
@@ -461,16 +480,34 @@ export const ProjectShowcase: React.FC = () => {
               />
             </div>
 
-            <div style={{ display: 'inline-block', padding: '0.3rem 0.8rem', borderRadius: 'var(--radius-full)', background: 'rgba(6, 182, 212, 0.1)', border: '1px solid rgba(6, 182, 212, 0.3)', color: 'var(--accent-cyan)', fontSize: '0.75rem', fontFamily: 'var(--font-mono)', marginBottom: '0.75rem' }}>
+            <div style={{ display: 'inline-block', padding: '0.3rem 0.8rem', borderRadius: 'var(--radius-full)', background: 'rgba(6, 182, 212, 0.1)', border: '1px solid rgba(6, 182, 212, 0.3)', color: 'var(--accent-cyan)', fontSize: '0.75rem', fontFamily: 'var(--font-mono)', marginBottom: '0.85rem' }}>
               {selectedProject.categoryLabel}
             </div>
 
-            <h3 style={{ fontSize: '1.85rem', fontWeight: 800, marginBottom: '0.35rem', color: '#ffffff' }}>
-              {selectedProject.title}
-            </h3>
-
-            <div style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginBottom: '1.25rem', fontFamily: 'var(--font-mono)' }}>
-              {selectedProject.subtitle}
+            <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1rem' }}>
+              {selectedProject.icon && (
+                <img
+                  src={selectedProject.icon}
+                  alt={`${selectedProject.title} icon`}
+                  style={{
+                    width: '56px',
+                    height: '56px',
+                    borderRadius: '14px',
+                    objectFit: 'cover',
+                    flexShrink: 0,
+                    boxShadow: '0 6px 18px rgba(0, 0, 0, 0.5)',
+                    border: '1px solid rgba(255, 255, 255, 0.2)',
+                  }}
+                />
+              )}
+              <div>
+                <h3 style={{ fontSize: '1.85rem', fontWeight: 800, margin: '0 0 0.25rem 0', color: '#ffffff' }}>
+                  {selectedProject.title}
+                </h3>
+                <div style={{ color: 'var(--accent-cyan)', fontSize: '0.825rem', fontFamily: 'var(--font-mono)' }}>
+                  {selectedProject.subtitle}
+                </div>
+              </div>
             </div>
 
             <p style={{ color: 'var(--text-secondary)', lineHeight: 1.7, fontSize: '0.95rem', marginBottom: '1.75rem' }}>
