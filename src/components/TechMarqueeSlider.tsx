@@ -22,64 +22,64 @@ interface MarqueeItem {
 export const TechMarqueeSlider: React.FC = () => {
   const items: MarqueeItem[] = [
     {
-      icon: <Zap size={14} style={{ color: '#38bdf8' }} />,
-      label: "Fullstack Web Systems",
-      badge: "React • Next.js • TS",
-      color: "rgba(56, 189, 248, 0.15)"
-    },
-    {
       icon: <Smartphone size={14} style={{ color: '#a78bfa' }} />,
-      label: "Mobile Engineering",
-      badge: "Kotlin • Compose • Flutter",
+      label: "Native Android Engineering",
+      badge: "Kotlin • Jetpack Compose",
       color: "rgba(167, 139, 250, 0.15)"
     },
     {
-      icon: <Sparkles size={14} style={{ color: '#38bdf8' }} />,
-      label: "AI-Augmented Velocity",
-      badge: "Claude Code • Agentic",
+      icon: <Zap size={14} style={{ color: '#38bdf8' }} />,
+      label: "Background Services & Lifecycle",
+      badge: "Foreground • WorkManager",
       color: "rgba(56, 189, 248, 0.15)"
-    },
-    {
-      icon: <Globe size={14} style={{ color: '#fbbf24' }} />,
-      label: "RESTful API Architectures",
-      badge: "FastAPI • Node • Prisma",
-      color: "rgba(251, 191, 36, 0.15)"
-    },
-    {
-      icon: <Trophy size={14} style={{ color: '#facc15' }} />,
-      label: "National Competition Winner",
-      badge: "3x Awards (Silver & Bronze)",
-      color: "rgba(250, 204, 21, 0.18)"
-    },
-    {
-      icon: <MapPin size={14} style={{ color: '#f43f5e' }} />,
-      label: "Geospatial Data Visualization",
-      badge: "Leaflet • GeoJSON",
-      color: "rgba(244, 63, 94, 0.15)"
-    },
-    {
-      icon: <CloudSun size={14} style={{ color: '#38bdf8' }} />,
-      label: "Real-Time Atmospheric Analytics",
-      badge: "Live Forecast Engines",
-      color: "rgba(56, 189, 248, 0.15)"
-    },
-    {
-      icon: <Database size={14} style={{ color: '#818cf8' }} />,
-      label: "Enterprise Data Ingestion",
-      badge: "SQL Server • PostgreSQL",
-      color: "rgba(129, 140, 248, 0.15)"
-    },
-    {
-      icon: <Rocket size={14} style={{ color: '#fb923c' }} />,
-      label: "Production-Ready Delivery",
-      badge: "Zero-Lag Architectures",
-      color: "rgba(251, 146, 60, 0.15)"
     },
     {
       icon: <Sparkles size={14} style={{ color: '#06b6d4' }} />,
-      label: "Awwwards-Grade UI/UX",
-      badge: "Fluid Micro-Interactions",
+      label: "AI-Augmented Development",
+      badge: "Claude Code • Agentic Workflows",
       color: "rgba(6, 182, 212, 0.15)"
+    },
+    {
+      icon: <Rocket size={14} style={{ color: '#fb923c' }} />,
+      label: "Google Play Store Production",
+      badge: "10K+ Downloads • 600+ DAU",
+      color: "rgba(251, 146, 60, 0.15)"
+    },
+    {
+      icon: <MapPin size={14} style={{ color: '#f43f5e' }} />,
+      label: "Real-Time 3D Map Telemetry",
+      badge: "MapLibre • Live GPS Tracking",
+      color: "rgba(244, 63, 94, 0.15)"
+    },
+    {
+      icon: <Globe size={14} style={{ color: '#fbbf24' }} />,
+      label: "High-Throughput P2P Sockets",
+      badge: "Wi-Fi Direct • Zero-Install LAN",
+      color: "rgba(251, 191, 36, 0.15)"
+    },
+    {
+      icon: <Cpu size={14} style={{ color: '#34d399' }} />,
+      label: "MediaProjection & VirtualDisplay",
+      badge: "Zero-GC Frame Pipeline",
+      color: "rgba(52, 211, 153, 0.15)"
+    },
+    {
+      icon: <Database size={14} style={{ color: '#818cf8' }} />,
+      label: "Firebase Production Telemetry",
+      badge: "Crashlytics • FCM • Funnels",
+      color: "rgba(129, 140, 248, 0.15)"
+    },
+    {
+      icon: <Trophy size={14} style={{ color: '#facc15' }} />,
+      label: "High-Velocity 0-to-1 Delivery",
+      badge: "1–3 Day Production Sprints",
+      color: "rgba(250, 204, 21, 0.18)"
+    },
+    {
+      icon: <Smartphone size={14} style={{ color: '#38bdf8' }} />,
+      label: "Android 15 & 16 Target Ready",
+      badge: "Target SDK 35 • Modern APIs",
+      color: "rgba(56, 189, 248, 0.15)"
     }
   ];
 

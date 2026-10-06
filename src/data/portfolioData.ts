@@ -59,16 +59,16 @@ export const PORTFOLIO_DATA = {
     {
       id: "care360",
       title: "Care360 📍",
-      subtitle: "Real-Time Telemetry & Interactive 3D Geospatial Mobile App",
+      subtitle: "Real-Time Family Telemetry & Interactive 3D Geospatial App",
       category: "mobile",
       categoryLabel: "Mobile Engineering & Geolocation",
-      description: "Active real-time location tracking and telemetry mobile application featuring interactive 3D map rendering, persistent battery-efficient background location services, and instant boundary geofencing alerts.",
-      longDescription: "Care360 is built for continuous family and device location intelligence, delivering reliable real-time tracking even under severe Android battery-saver constraints. Features high-framerate 3D map visualization, persistent foreground/background coordinate ingestion, bi-directional WebSockets connectivity, and automated geofence radius trigger notifications for safety telemetry.",
-      tags: ["Android", "Kotlin", "Jetpack Compose", "3D Maps", "WebSockets", "Firebase", "Background Services", "Geofencing"],
+      description: "Real-time device location tracking and safety telemetry mobile app featuring interactive 3D vector maps with MapLibre, persistent battery-efficient background location services, and instant geofencing alerts.",
+      longDescription: "Care360 delivers continuous family location intelligence with zero tracking dropouts. Built with a Single Activity Multi-Screen Compose State Flow architecture, the app renders full-screen 3D vector maps (MapLibre Native + CARTO Voyager) at a 52° cinematic tilt with dynamic fly-to camera interpolation. Engineered persistent Android Background Services with adaptive battery-safe polling, bi-directional WebSocket coordinate ingestion, a 3-second hold emergency SOS with haptic feedback, and automated safe-zone geofence boundary alerts.",
+      tags: ["Android", "Kotlin", "Jetpack Compose", "MapLibre Native", "3D Vector Maps", "Background Services", "WebSockets", "Supabase"],
       metrics: [
-        { label: "Telemetry", value: "Real-Time 3D GPS" },
-        { label: "Reliability", value: "Persistent Background Sync" },
-        { label: "Architecture", value: "Jetpack Compose & WS" }
+        { label: "Map Engine", value: "3D MapLibre" },
+        { label: "Telemetry", value: "Real-Time GPS & WS" },
+        { label: "Lifecycle", value: "Persistent Background" }
       ],
       image: "/care360.png",
       images: [
@@ -79,26 +79,26 @@ export const PORTFOLIO_DATA = {
       hideExternalLinks: true,
       featured: true,
       highlights: [
-        "Architected persistent Android Background Location Services with battery-adaptive polling intervals",
-        "Engineered smooth interactive 3D map projection with live movement interpolation and custom telemetry markers",
-        "Implemented real-time bidirectional WebSocket synchronization for instant coordinate streaming",
-        "Integrated Firebase push notifications (FCM) for low-latency geofence entry and exit triggers",
-        "Designed clean MVVM architecture with Kotlin Coroutines and StateFlow for reactive UI state management"
+        "Architected persistent Android Background Location Services ensuring continuous coordinate ingestion during deep-sleep OS states",
+        "Integrated MapLibre Native SDK with CARTO Voyager vector tiles, 52° cinematic tilt angle, 3D buildings, and dynamic camera fly-to interpolation",
+        "Built safe-zone geofencing (emerald & cyan neon radius perimeters) with instant boundary crossing alerts via WebSockets & Supabase",
+        "Implemented 3-second hold anti-accidental emergency SOS button with haptic feedback and real-time alert dispatch",
+        "Designed Single Activity Compose State Flow architecture with reactive battery telemetry and live device status"
       ]
     },
     {
       id: "airdrop-x",
-      title: "AirDrop X ⚡",
-      subtitle: "High-Performance P2P File Transfer & Utility Engine (Live on Play Store)",
+      title: "AeroDrop (AirDrop X) ⚡",
+      subtitle: "Gigabit LAN P2P File Transfer & Zero-Install Web Gateway (Live on Play Store)",
       category: "mobile",
       categoryLabel: "Mobile Engineering & Networking",
-      description: "A high-velocity local peer-to-peer file transfer engine on Google Play Store reaching 300+ DAU. Built with robust Android foreground & background services, Wi-Fi Direct discovery, dynamic progress notifications, and custom Firebase telemetry.",
-      longDescription: "AirDrop X provides lightning-fast offline device-to-device data sharing across Android smartphones without consuming mobile data. Solves heavy payload transfer bottlenecks using direct socket streaming over Wi-Fi Direct. Features automated peer radar discovery, resumable chunked file transfers, foreground service notifications with real-time transfer velocity metering (up to 48+ MB/s), and Firebase custom event tracking.",
-      tags: ["Android", "Kotlin", "Jetpack Compose", "Wi-Fi Direct / P2P", "FCM Push Notif", "Background Services", "Firebase Analytics"],
+      description: "High-speed local device-to-device file transfer engine with zero application install on the receiver side (PC/Mac/iOS via airdropme.site), Apple HIG-grade pulsing canvas radar, and native Android ShareSheet integration.",
+      longDescription: "AeroDrop replicates the seamless Apple AirDrop experience across Android, Windows, Mac, and iOS without requiring app installation on the receiving end. Built with Jetpack Compose Canvas rendering a 3-ring pulsing radar and trigonometric orbiting device nodes. Features full Gigabit LAN throughput via raw TCP socket streaming & WebSockets (up to 48+ MB/s), an iOS-style Spring Bounce handshake modal, native Android Share Sheet (Intent.ACTION_SEND) bottom-sheet transfer, and automatic MediaScanner gallery indexing in Downloads/AirDrop/.",
+      tags: ["Android", "Kotlin", "Jetpack Compose", "TCP Sockets & HTTP", "Canvas Radar", "Native ShareSheet", "MediaScanner", "Play Store Live"],
       metrics: [
-        { label: "Live Users", value: "300+ DAU" },
         { label: "Store Status", value: "Google Play Live" },
-        { label: "Transfer Speed", value: "Up to 48+ MB/s" }
+        { label: "Receiver Setup", value: "Zero-Install (Web)" },
+        { label: "Throughput", value: "Gigabit LAN Speed" }
       ],
       image: "/airdrop-x.png",
       images: [
@@ -109,85 +109,86 @@ export const PORTFOLIO_DATA = {
       hideExternalLinks: true,
       featured: true,
       highlights: [
-        "Published and maintained on Google Play Store, organically scaling to 300+ Daily Active Users (DAU)",
-        "Engineered high-throughput P2P transmission engine using Wi-Fi Direct and raw TCP socket streaming",
-        "Implemented uninterrupted Android Foreground Service with live notification progress bar and speed telemetry",
-        "Integrated Firebase Analytics with custom funnel events to measure peer pairing success and transfer completion",
-        "Enforced robust Storage Access Framework (SAF) permissions compliant with Android 13/14+ security policies"
+        "Engineered high-throughput LAN file transfer engine using local HTTP streaming and raw TCP sockets with zero internet data consumption",
+        "Achieved Zero-Install receiver workflow allowing any PC, Mac, or iPhone on the same Wi-Fi to receive files via vanity URL or QR code",
+        "Crafted 60-120 FPS pulsing radar using Jetpack Compose Canvas and trigonometric orbital node placement for nearby devices",
+        "Integrated native Android Share Sheet (Intent.ACTION_SEND) launching a translucent bottom sheet with Apple-grade spring physics",
+        "Implemented automated MediaScanner service routing received media to Downloads/AirDrop/ for instant gallery indexing"
       ]
     },
     {
-      id: "utility-suite",
-      title: "Android Utility Suite 🚀",
-      subtitle: "High-Velocity Mobile Utilities & Content Processing Tools (Play Store)",
+      id: "scrollsnap",
+      title: "ScrollSnap 📸",
+      subtitle: "Smart Long-Screenshot & Automated Canvas Stitching Engine",
       category: "mobile",
       categoryLabel: "Mobile Engineering & DevTools",
-      description: "A published suite of native utility apps (Long Screenshot, Content Capture) on Google Play Store driving 600+ cumulative DAU. Engineered for rapid 1–3 day delivery cycles using Claude Code with crash-free stability.",
-      longDescription: "Demonstrating high-velocity mobile product engineering from discovery to store deployment. This ecosystem of lightweight Android utility apps solves daily mobile productivity needs: seamless long canvas stitching, screen capture overlays, and media extraction. Built with high performance bitmap rendering, memory optimization to prevent OutOfMemory (OOM) errors, and comprehensive Firebase Crashlytics monitoring.",
-      tags: ["Android", "Kotlin", "Claude Code", "Play Store Production", "Storage Access Framework", "Firebase Crashlytics"],
+      description: "An intelligent Android scrolling screenshot utility combining MediaProjection screen recording with AccessibilityService UI hierarchy analysis to auto-crop sticky headers and keyboards for seamless stitch captures.",
+      longDescription: "ScrollSnap solves the fatal overlapping and duplicate element flaws found in competitor screenshot tools with 10M+ downloads. Built with a hybrid architecture combining Android MediaProjection and AccessibilityService: the app reads target view hierarchies in real time to calculate dynamic scrolling bounds, auto-detects and crops sticky headers, floating action buttons, and virtual keyboards, and executes high-speed bitmap canvas stitching with memory recycling pipelines that eliminate OutOfMemory (OOM) crashes.",
+      tags: ["Android", "Kotlin", "MediaProjection", "AccessibilityService", "Smart Stitching", "Bitmap Recycling", "Android SDK"],
       metrics: [
-        { label: "Cumulative Reach", value: "600+ DAU" },
-        { label: "Delivery Speed", value: "1-3 Day Cycles" },
-        { label: "Platform", value: "Google Play Store" }
+        { label: "Architecture", value: "Hybrid Projection" },
+        { label: "Stitching", value: "Smart Header Crop" },
+        { label: "Stability", value: "Zero-OOM Pipeline" }
       ],
-      image: "/utility-suite.png",
+      image: "/scrollsnap.png",
       images: [
-        "/utility-suite.png"
+        "/scrollsnap.png"
       ],
       githubUrl: "",
       liveUrl: "",
       hideExternalLinks: true,
       featured: true,
       highlights: [
-        "Shipped multiple production utility applications to Google Play Store achieving 600+ cumulative DAU",
-        "Leveraged Claude Code and AI-assisted workflows to compress 0-to-1 feature delivery cycles down to 1–3 days",
-        "Optimized bitmap memory allocations and recycling pipeline to achieve zero-crash canvas stitching",
-        "Monitored live production stability and session metrics using Firebase Crashlytics and Remote Config",
-        "Executed data-driven store listing and feature iteration to boost user retention and organic discoverability"
+        "Pioneered a hybrid capture architecture combining MediaProjection screen recording and AccessibilityService view inspection",
+        "Engineered smart boundary detection algorithm that automatically identifies and crops sticky headers, FABs, and keyboards before stitching",
+        "Eliminated visual overlap and duplicate content bugs common in competitor apps without requiring target app cooperation",
+        "Architected a low-memory bitmap processing and recycling pipeline handling 7,000px+ high-res canvas stitches without OOM crashes",
+        "Designed non-intrusive floating control overlay with auto-scroll speed throttling and manual pause/resume controls"
       ]
     },
     {
-      id: "voiz-ai",
-      title: "Voiz.AI 🎙️",
-      subtitle: "Smart Mobile Voice Transformation & Neural Audio Studio",
+      id: "stickercapture",
+      title: "Stick.it (StickerCapture) 🎨",
+      subtitle: "Real-Time Screen Capture to Animated WhatsApp Sticker Studio (Play Store Live)",
       category: "mobile",
-      categoryLabel: "Mobile Engineering & Audio",
-      description: "An intuitive mobile audio application enabling users to transform speech and create custom voice clones in seconds. Features dual-input audio capture, live tempo & pitch adjustments, and seamless export to social platforms.",
-      longDescription: "Voiz.AI provides a seamless mobile studio experience for voice synthesis and creative audio morphing. Designed with modern aesthetics and fluid controls, users can easily speak into the microphone or import existing audio files to generate realistic character voices. The app features built-in fine-tuning controls to adjust pitch and pacing in real time, alongside a personal voice library for saving, managing, and sharing creations directly with friends and team members.",
-      tags: ["Android", "Kotlin", "Jetpack Compose", "FastAPI", "Supabase", "Cloudflare R2", "Hugging Face", "Neural Audio"],
+      categoryLabel: "Mobile Engineering & Media",
+      description: "An on-screen content capture studio that converts videos, reels, and screen clips into compliant static & animated WhatsApp WebP stickers in seconds, featuring a filmstrip trimmer and zero-GC capture pipeline.",
+      longDescription: "Stick.it transforms any on-screen video or social media clip into compliant WhatsApp stickers in seconds. Engineered for Android 15 & 16 (Target SDK 35/36), replacing legacy synchronous capture with a high-performance MediaProjection VirtualDisplay pipeline, direct-buffer row extraction, and parallel disk writers that eliminate screen flickering and GC thrashing. Features a floating speed-dial bubble, CapCut-style 3.0s filmstrip video trimmer, an Adaptive WebP 512x512 encoder, and direct pack export via StickerContentProvider.",
+      tags: ["Android", "Kotlin", "Target SDK 35/36", "MediaProjection", "Animated WebP", "StickerContentProvider", "WhatsApp API", "Play Store Live"],
       metrics: [
-        { label: "Platform", value: "Native Android" },
-        { label: "Audio Capture", value: "Mic & File Upload" },
-        { label: "Controls", value: "Real-Time Tuning" }
+        { label: "Target SDK", value: "Android 15/16 Ready" },
+        { label: "Encoding", value: "Adaptive 512px WebP" },
+        { label: "Pipeline", value: "Zero-GC Direct Buffer" }
       ],
-      image: "/voiz-ai.png",
+      image: "/stickercapture.png",
       images: [
-        "/voiz-ai.png"
+        "/stickercapture.png"
       ],
       githubUrl: "",
       liveUrl: "",
+      hideExternalLinks: true,
       featured: true,
       highlights: [
-        "Instant speech morphing into diverse character and neural voice profiles",
-        "Dual-input studio supporting direct microphone recording and multi-format audio uploads",
-        "Real-time tuning console to calibrate speech tempo, tone depth, and playback pacing",
-        "Personal audio collection to bookmark favorite voices and organize custom creations",
-        "One-tap direct export and sharing to WhatsApp, Telegram, and social media platforms"
+        "Re-architected core capture engine using MediaProjection, VirtualDisplay, and direct-buffer extraction, eliminating ANRs and GC freeze",
+        "Engineered CapCut-style filmstrip timeline trimmer with real-time playhead scrubbing and WhatsApp's strict 3.0-second limit enforcement",
+        "Developed Adaptive WebP 512x512 compression engine ensuring zero black-border artifacts and strict compliance under the 500 KB limit",
+        "Implemented custom StickerContentProvider and WhatsApp Intent handshake for seamless one-tap sticker pack installation",
+        "Built floating speed-dial bubble overlay with magnetic screen-edge snapping and background service lifecycle management"
       ]
     },
     {
       id: "jsonflow",
       title: "JSONFlow ⚡",
-      subtitle: "High-Performance Mobile JSON Inspector & API Data Viewer",
+      subtitle: "High-Performance Mobile JSON Inspector & API Debugging DevTool",
       category: "mobile",
       categoryLabel: "Mobile Engineering & DevTools",
-      description: "A developer-centric mobile utility designed to inspect, parse, and navigate complex JSON data and API responses directly on your phone. Engineered for smooth handling of large payloads with zero lag.",
-      longDescription: "JSONFlow empowers developers, QA engineers, and tech teams to debug, validate, and analyze structured JSON datasets on the go. Built to eliminate lag and crashes when handling heavy API responses, the app features an intuitive collapsible tree view, instant key-value search, automated syntax error detection, and flexible formatting tools to turn raw data into clean, readable structures anywhere.",
-      tags: ["Android", "Kotlin", "Jetpack Compose", "JSON Parser", "DevTools", "Performance Engine", "Mobile"],
+      description: "A developer-centric mobile utility designed to inspect, parse, and navigate heavy JSON payloads and API responses directly on Android phones with virtualized tree rendering and zero lag.",
+      longDescription: "JSONFlow empowers mobile developers, QA engineers, and backend teams to debug structured JSON responses on the go. Solves thread freezes when loading heavy payloads through a virtualized collapsible tree rendering engine. Features syntax color-coding, instantaneous deep key-value regex search, real-time syntax validation pinpointing error line coordinates, and one-click JSON beautification, flattening, and clipboard exporting.",
+      tags: ["Android", "Kotlin", "Jetpack Compose", "Virtualized Tree", "DevTools", "JSON Parser", "Performance Engine"],
       metrics: [
-        { label: "Platform", value: "Native Android" },
-        { label: "File Handling", value: "Heavy Payloads" },
-        { label: "Visualization", value: "Collapsible Tree" }
+        { label: "Rendering", value: "Virtualized Tree" },
+        { label: "Payload Handling", value: "Multi-MB Lag Free" },
+        { label: "Validation", value: "Real-Time Pinpoint" }
       ],
       image: "/jsonflow.png",
       images: [
@@ -197,11 +198,11 @@ export const PORTFOLIO_DATA = {
       liveUrl: "",
       featured: true,
       highlights: [
-        "High-speed data processing engine capable of rendering large files smoothly without lag",
-        "Interactive collapsible tree view with syntax color-coding for effortless hierarchy exploration",
-        "Instant smart search to quickly locate specific keys, values, or deeply nested objects",
-        "Real-time JSON validation with precise error indicators and line pinpointing",
-        "One-click formatting, beautification, clipboard copying, and file export for rapid testing"
+        "Built virtualized collapsible tree rendering engine capable of loading multi-megabyte JSON payloads with 60 FPS scrolling",
+        "Implemented real-time parser with precise syntax error highlighting, character coordinates, and line pinpointing",
+        "Engineered deep key-value search indexing with regex query support and nested branch auto-expansion",
+        "Designed intuitive developer UX with one-tap beautification, minification, path copying, and file export",
+        "Integrated Android clipboard listener and HTTP response share intents for instant payload debugging from any app"
       ]
     },
     {
