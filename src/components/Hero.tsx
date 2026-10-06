@@ -139,7 +139,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenCv }) => {
                 marginBottom: '1.35rem',
               }}
             >
-              Hi, I'm <strong style={{ color: '#fff' }}>{PORTFOLIO_DATA.profile.name}</strong>. High-velocity Mobile Engineer specializing in <strong style={{ color: '#c7d2fe' }}>Native Android (Kotlin), Claude Code agentic workflows, and Google Play Store delivery</strong>. Creator of 5+ production mobile apps with 600+ DAU, focused on robust background services, real-time map telemetry, and rapid 1–3 day delivery cycles.
+              Hi, I'm <strong style={{ color: '#fff' }}>{PORTFOLIO_DATA.profile.name}</strong>. High-velocity Mobile Engineer specializing in <strong style={{ color: '#c7d2fe' }}>Native Android (Kotlin), Claude Code agentic workflows, and Google Play Store delivery</strong>. Creator of 5+ production mobile apps with 10K+ downloads and 600+ DAU, with proven expertise in engineering robust background services, real-time map telemetry, and rapid 1–3 day delivery cycles.
             </p>
 
             {/* Quick Action CTAs */}
@@ -339,7 +339,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenCv }) => {
                     lineHeight: 1.2,
                   }}
                 >
-                  <AnimatedCounter target={parseInt(stat.value) || 0} suffix="+" />
+                  <AnimatedCounter target={(stat as any).target ?? (parseInt(stat.value) || 0)} suffix={(stat as any).suffix ?? "+"} />
                 </div>
                 <div style={{ fontSize: '0.78rem', color: 'var(--text-secondary)', marginTop: '2px' }}>
                   {stat.label}

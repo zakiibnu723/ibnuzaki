@@ -40,7 +40,7 @@ export const PORTFOLIO_DATA = {
     name: "Ibnu Zaki Al",
     title: "Mobile Engineer (Android & AI-Augmented Development)",
     subtitle: "Informatics • UIN Sunan Kalijaga Yogyakarta (2022 — 2026 Expected)",
-    shortBio: "High-velocity Mobile Engineer specializing in Native Android Development (Kotlin, Jetpack Compose) and AI-Augmented Software Workflows (Claude Code). Proven track record of shipping production-grade mobile applications to the Google Play Store with 600+ Daily Active Users (DAU). Deep practical experience in engineering resilient Android Background Services, real-time push notifications, geospatial/map telemetry, and data-driven product analytics via Firebase.",
+    shortBio: "High-velocity Mobile Engineer specializing in Native Android Development (Kotlin, Jetpack Compose) and AI-Augmented Software Workflows (Claude Code). Proven track record of shipping production-grade mobile applications to the Google Play Store with 10,000+ total downloads and 600+ Daily Active Users (DAU). Deep expertise in engineering resilient Android Background Services, real-time push notifications, geospatial/map telemetry, and data-driven product analytics via Firebase.",
     location: "Indonesia (Open to On-site, Hybrid & Remote)",
     status: "Available for Hire",
     email: "zakiibnu723@gmail.com",
@@ -49,9 +49,9 @@ export const PORTFOLIO_DATA = {
     github: "https://github.com/zakiibnu723",
     linkedin: "https://linkedin.com/in/ibnuzakial",
     stats: [
-      { label: "Completed Projects", value: "18+" },
-      { label: "Google Play Store DAU", value: "600+" },
-      { label: "National Tech Awards", value: "3" },
+      { label: "Total App Downloads", value: "10K+", target: 10, suffix: "K+" },
+      { label: "Google Play Store DAU", value: "600+", target: 600, suffix: "+" },
+      { label: "National Tech Awards", value: "3x", target: 3, suffix: "x" },
     ]
   },
 
