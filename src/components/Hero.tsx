@@ -125,8 +125,8 @@ export const Hero: React.FC<HeroProps> = ({ onOpenCv }) => {
                 letterSpacing: '-0.03em',
               }}
             >
-              Engineering High-Velocity <span className="text-gradient-cyan">Mobile Apps</span> &{' '}
-              <span className="text-gradient-purple">AI Workflows</span>.
+              Engineering High-Impact <span className="text-gradient-cyan">Mobile Apps</span> with{' '}
+              <span className="text-gradient-purple">Product & UI Polish</span>.
             </h1>
 
             <p
@@ -139,7 +139,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenCv }) => {
                 marginBottom: '1.35rem',
               }}
             >
-              Hi, I'm <strong style={{ color: '#fff' }}>{PORTFOLIO_DATA.profile.name}</strong>. High-velocity Mobile Engineer specializing in <strong style={{ color: '#c7d2fe' }}>Native Android (Kotlin), Claude Code agentic workflows, and Google Play Store delivery</strong>. Creator of 5+ production mobile apps with 10K+ downloads and 600+ DAU, with proven expertise in engineering robust background services, real-time map telemetry, and rapid 1–3 day delivery cycles.
+              Hi, I'm <strong style={{ color: '#fff' }}>{PORTFOLIO_DATA.profile.name}</strong>. Product-minded Mobile Engineer combining <strong style={{ color: '#c7d2fe' }}>Native Android (Kotlin), human-centered UI/UX, and AI-Augmented workflows (Claude Code)</strong>. National design award winner and creator of 5+ production mobile apps with 10K+ downloads and 600+ DAU—blending sharp Product-Market Fit (PMF) instincts, fluid interfaces, resilient background services, and rapid 1–3 day sprint delivery.
             </p>
 
             {/* Quick Action CTAs */}
