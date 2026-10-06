@@ -36,7 +36,7 @@ export const TechMarqueeSlider: React.FC = () => {
     {
       icon: <Sparkles size={14} style={{ color: '#06b6d4' }} />,
       label: "AI-Augmented Development",
-      badge: "Claude Code • Agentic Workflows",
+      badge: "AI Agents • Agentic Workflows",
       color: "rgba(6, 182, 212, 0.15)"
     },
     {

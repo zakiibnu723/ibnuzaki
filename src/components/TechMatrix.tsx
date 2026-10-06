@@ -21,7 +21,8 @@ import {
   GitBranch, 
   Send, 
   Box, 
-  PenTool
+  PenTool,
+  MapPin
 } from 'lucide-react';
 
 export const TechMatrix: React.FC = () => {
@@ -50,6 +51,7 @@ export const TechMatrix: React.FC = () => {
       case 'Send': return <Send size={size} style={{ color: '#fb923c' }} />;
       case 'Box': return <Box size={size} style={{ color: '#38bdf8' }} />;
       case 'Figma': return <PenTool size={size} style={{ color: '#f43f5e' }} />;
+      case 'MapPin': return <MapPin size={size} style={{ color: '#f43f5e' }} />;
       default: return <Code2 size={size} />;
     }
   };

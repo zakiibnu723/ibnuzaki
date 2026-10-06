@@ -168,15 +168,15 @@ export const CvModal: React.FC<CvModalProps> = ({ isOpen, onClose }) => {
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '0.75rem' }}>
               <div style={{ background: 'rgba(255, 255, 255, 0.03)', padding: '0.85rem', borderRadius: '10px' }}>
                 <div style={{ fontWeight: 700, fontSize: '0.85rem', color: '#ffffff', marginBottom: '0.25rem' }}>Mobile Engineering:</div>
-                <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>Native Android, Kotlin, Jetpack Compose, Android SDK, Background Services, WorkManager</div>
+                <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>Native Android, Kotlin, Jetpack Compose, MapLibre Native, Android SDK, Background Services, WorkManager</div>
               </div>
               <div style={{ background: 'rgba(255, 255, 255, 0.03)', padding: '0.85rem', borderRadius: '10px' }}>
                 <div style={{ fontWeight: 700, fontSize: '0.85rem', color: '#ffffff', marginBottom: '0.25rem' }}>AI & Modern Tooling:</div>
-                <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>Claude Code (Agentic Workflows), Git/GitHub, Docker, Google Play Console, Firebase (Crashlytics, FCM)</div>
+                <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>AI Agents (Agentic Workflows), Git/GitHub, Docker, Google Play Console, Firebase (Crashlytics, FCM)</div>
               </div>
               <div style={{ background: 'rgba(255, 255, 255, 0.03)', padding: '0.85rem', borderRadius: '10px' }}>
                 <div style={{ fontWeight: 700, fontSize: '0.85rem', color: '#ffffff', marginBottom: '0.25rem' }}>Frontend:</div>
-                <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>React, TypeScript, Next.js, Tailwind CSS, HTML5/CSS3</div>
+                <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>React, TypeScript, Next.js, Leaflet.js, Tailwind CSS, HTML5/CSS3</div>
               </div>
               <div style={{ background: 'rgba(255, 255, 255, 0.03)', padding: '0.85rem', borderRadius: '10px' }}>
                 <div style={{ fontWeight: 700, fontSize: '0.85rem', color: '#ffffff', marginBottom: '0.25rem' }}>Backend & Database:</div>

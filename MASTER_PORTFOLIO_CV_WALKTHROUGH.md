@@ -24,14 +24,14 @@
 
 ### A. Siapa Kamu di Mata Industri?
 Kamu adalah **Product-Minded Mobile Engineer** — tipe engineer langka yang menggabungkan:
-1. **Kecepatan Eksekusi Ekstrem (0-to-1 in 1–3 Days):** Memanfaatkan Claude Code dan agentic tooling untuk melibas fase development dari ide, UI, integrasi backend, hingga rilis ke Google Play Store dalam hitungan hari.
+1. **Kecepatan Eksekusi Ekstrem (0-to-1 in 1–3 Days):** Memanfaatkan AI Agents dan agentic tooling untuk melibas fase development dari ide, UI, integrasi backend, hingga rilis ke Google Play Store dalam hitungan hari.
 2. **Penguasaan Sub-sistem Native Android Nyata:** Bukan hanya wrapper web, kamu menguasai subsistem low-level Android: *Background Services, Foreground Service, WorkManager, MediaProjection, AccessibilityService, ContentProvider, MediaScanner, dan Wi-Fi Direct socket streaming*.
 3. **Validasi Pasar & Metrik Nyata:** Portofolio kamu bukan tugas kuliah di emulator, melainkan **10,000+ Total Downloads** dan **600+ Daily Active Users (DAU)** organik di Google Play Store.
 4. **Product-Market Fit (PMF) & UI/UX Taste:** Pemenang Juara 2 Lomba Desain Web Nasional (INTECH FEST 2025). Kamu mengerti psikologi pengguna, alur navigasi yang intuitif, serta optimasi konversi ASO.
 
 ### B. Cara Menjawab Pertanyaan: "Ngoding Pakai AI Tanpa Menghafal Sintaks?"
 Jika ditanya saat interview:
-> *"Bagi saya, sintaks hanyalah implementasi detail yang bisa di-generate dan diverifikasi dalam hitungan detik. Kekuatan utama saya adalah **Software Architecture, System Design, Android Lifecycle understanding, dan Product Judgment**. Saya menggunakan Claude Code sebagai akselerator agar bisa merilis fitur 5x lebih cepat dibanding dev tradisional, namun saya tetap memegang kendali penuh atas audit memori, concurrency thread, dan stabilitas produksi."*
+> *"Bagi saya, sintaks hanyalah implementasi detail yang bisa di-generate dan diverifikasi dalam hitungan detik. Kekuatan utama saya adalah **Software Architecture, System Design, Android Lifecycle understanding, dan Product Judgment**. Saya menggunakan AI Agents sebagai akselerator agar bisa merilis fitur 5x lebih cepat dibanding dev tradisional, namun saya tetap memegang kendali penuh atas audit memori, concurrency thread, dan stabilitas produksi."*
 
 ---
 
@@ -49,7 +49,7 @@ Portfolio: ibnuzakial.vercel.app
 PROFESSIONAL SUMMARY
 --------------------------------------------------------------------------------
 Product-minded Mobile Engineer specializing in Native Android Development (Kotlin, 
-Jetpack Compose) and AI-Augmented Software Workflows (Claude Code). Proven track 
+Jetpack Compose) and AI-Augmented Software Workflows (AI Agents). Proven track 
 record of building and shipping production-grade mobile applications to the 
 Google Play Store with 10,000+ total downloads and 600+ Daily Active Users (DAU). 
 Deep technical expertise in engineering resilient Android Background Services, 
@@ -66,7 +66,7 @@ CORE COMPETENCIES & TECHNICAL SKILLS
   Storage Access Framework (SAF), ContentProvider, MediaScanner.
 - Real-Time & Networking: RESTful APIs, WebSockets, Real-Time Geolocation & Maps, 
   Local P2P Networking (Wi-Fi Direct, Raw TCP Sockets), Push Notifications (FCM).
-- AI & Modern Tooling: Claude Code (Advanced CLI & Agentic Workflows), Prompt 
+- AI & Modern Tooling: AI Agents (Advanced CLI & Agentic Workflows), Prompt 
   Engineering, Automated Code Review, Rapid End-to-End Prototyping.
 - Monitoring & Analytics: Firebase (Analytics, Crashlytics, FCM, Remote Config), 
   Custom Event Tracking, User Funnel Analysis, Performance Monitoring.
@@ -119,7 +119,7 @@ KEY MOBILE PRODUCTION PROJECTS
 
 ENGINEERING VELOCITY & AI-AUGMENTED WORKFLOW
 --------------------------------------------------------------------------------
-- Pioneered AI-assisted mobile development leveraging Claude Code to scaffold features, 
+- Pioneered AI-assisted mobile development leveraging AI Agents to scaffold features, 
   refactor legacy components, and automate edge-case unit test coverage.
 - Achieved rapid end-to-end delivery cycles, routinely turning product briefs into 
   functional, deployable builds in 1–3 days.
@@ -233,12 +233,12 @@ Setiap proyek ini memiliki arsitektur nyata di direktori `C:\Startups`. Gunakan 
 * **Tantangan Aplikasi Driver:**
   1. GPS dan koneksi tidak boleh mati saat HP driver ditaruh di kantong/stang motor (diselesaikan oleh pengalaman **Background Services di Care360 & AirDrop X**).
   2. Peta rute & dispatching real-time (diselesaikan oleh pengalaman **MapLibre 3D Vector Maps di Care360**).
-  3. Kebutuhan rilis fitur baru mingguan (diselesaikan oleh kemampuan **1–3 Day Claude Code Sprint Cycles**).
+  3. Kebutuhan rilis fitur baru mingguan (diselesaikan oleh kemampuan **1–3 Day AI Agent Sprint Cycles**).
   4. Monitoring kesehatan app kurir di jalanan (diselesaikan oleh **Firebase Crashlytics & Analytics funnels**).
 
 ### B. Template Cold Email / LinkedIn Outreach ke Tim Dash Electric
 
-**Subjek Email:** Application: Mobile Engineer — Ibnu Zaki Alhawari (10K+ Downloads, Production Native Android & Claude Code)
+**Subjek Email:** Application: Mobile Engineer — Ibnu Zaki Alhawari (10K+ Downloads, Production Native Android & AI Agents)
 
 ```text
 Halo [Nama Recruiter / Mas Aditya / Mas Robert],
@@ -250,7 +250,7 @@ Sebagai seorang Mobile Engineer yang berfokus pada Native Android (Kotlin & Jetp
 Beberapa pengalaman saya yang sangat relevan dengan operasional driver & armada Dash Electric:
 1. Real-Time Telemetry & Background Services: Mengembangkan Care360 dengan MapLibre 3D vector maps dan Android Background Location Services yang persisten saat deep-sleep, serta transfer socket P2P di AirDrop X.
 2. Low-Level Android Subsystems: Berpengalaman menangani MediaProjection, VirtualDisplay, WorkManager, dan lifecycle Android modern hingga Target SDK 35/36.
-3. AI-Augmented Velocity (Claude Code): Menggunakan Claude Code sebagai bagian inti dari workflow harian saya untuk mengakselerasi siklus rilis fitur 0-to-1 dalam sprint 1–3 hari tanpa mengorbankan stabilitas memori dan crash-free rate.
+3. AI-Augmented Velocity (AI Agents): Menggunakan AI Agents sebagai bagian inti dari workflow harian saya untuk mengakselerasi siklus rilis fitur 0-to-1 dalam sprint 1–3 hari tanpa mengorbankan stabilitas memori dan crash-free rate.
 
 Portofolio lengkap saya dapat dilihat di: https://ibnuzakial.vercel.app
 GitHub: https://github.com/zakiibnu723

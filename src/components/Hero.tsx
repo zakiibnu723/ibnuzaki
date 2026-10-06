@@ -139,7 +139,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenCv }) => {
                 marginBottom: '1.35rem',
               }}
             >
-              Hi, I'm <strong style={{ color: '#fff' }}>{PORTFOLIO_DATA.profile.name}</strong>. Product-minded Mobile Engineer specializing in <strong style={{ color: '#c7d2fe' }}>Native Android (Kotlin), Claude Code agentic workflows, and Google Play Store delivery</strong>. Creator of 5+ production mobile apps with 10K+ downloads and 600+ DAU, with deep technical expertise in resilient background services, real-time map telemetry, and Firebase analytics. Full end-to-end ownership spanning product design, mobile architecture, backend integration, and store release in rapid 1–3 day sprint cycles.
+              Hi, I'm <strong style={{ color: '#fff' }}>{PORTFOLIO_DATA.profile.name}</strong>. Product-minded Mobile Engineer specializing in <strong style={{ color: '#c7d2fe' }}>Native Android (Kotlin), AI Agent workflows, and Google Play Store delivery</strong>. Creator of 5+ production mobile apps with 10K+ downloads and 600+ DAU, with deep technical expertise in resilient background services, real-time map telemetry, and Firebase analytics. Full end-to-end ownership spanning product design, mobile architecture, backend integration, and store release in rapid 1–3 day sprint cycles.
             </p>
 
             {/* Quick Action CTAs */}
@@ -191,7 +191,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenCv }) => {
               <span style={{ fontSize: '0.72rem', color: 'var(--text-muted)', fontFamily: 'var(--font-mono)', marginRight: '0.3rem' }}>
                 STACK:
               </span>
-              {['Kotlin', 'Jetpack Compose', 'Claude Code', 'Android SDK', 'Firebase / FCM', 'Maps / Telemetry', 'Next.js', 'TypeScript'].map((tech) => (
+              {['Kotlin', 'Jetpack Compose', 'AI Agents', 'Android SDK', 'Firebase / FCM', 'MapLibre / Leaflet', 'Next.js', 'TypeScript'].map((tech) => (
                 <span key={tech} className="tech-pill" style={{ padding: '0.25rem 0.65rem', fontSize: '0.72rem' }}>
                   {tech}
                 </span>

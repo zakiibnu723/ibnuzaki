@@ -41,7 +41,7 @@ export const PORTFOLIO_DATA = {
     name: "Ibnu Zaki Al",
     title: "Mobile Engineer (Android & AI-Augmented Development)",
     subtitle: "Informatics • UIN Sunan Kalijaga Yogyakarta (2022 — 2026 Expected)",
-    shortBio: "Product-minded Mobile Engineer specializing in Native Android Development (Kotlin, Jetpack Compose) and AI-Augmented Software Workflows (Claude Code). Proven track record of building and shipping production-grade mobile applications to the Google Play Store with 10,000+ total downloads and 600+ Daily Active Users (DAU). Deep technical expertise in engineering resilient Android Background Services, real-time map telemetry, and Firebase product analytics. Full end-to-end ownership spanning product design, mobile architecture, backend integration, and store release in rapid 1–3 day sprint cycles.",
+    shortBio: "Product-minded Mobile Engineer specializing in Native Android Development (Kotlin, Jetpack Compose) and AI-Augmented Software Workflows (AI Agents). Proven track record of building and shipping production-grade mobile applications to the Google Play Store with 10,000+ total downloads and 600+ Daily Active Users (DAU). Deep technical expertise in engineering resilient Android Background Services, real-time map telemetry, and Firebase product analytics. Full end-to-end ownership spanning product design, mobile architecture, backend integration, and store release in rapid 1–3 day sprint cycles.",
     location: "Indonesia (Open to On-site, Hybrid & Remote)",
     status: "Available for Hire",
     email: "zakiibnu723@gmail.com",
@@ -50,9 +50,9 @@ export const PORTFOLIO_DATA = {
     github: "https://github.com/zakiibnu723",
     linkedin: "https://linkedin.com/in/ibnuzakial",
     stats: [
+      { label: "Production Apps", value: "5+", target: 5, suffix: "+" },
       { label: "Total App Downloads", value: "10K+", target: 10, suffix: "K+" },
       { label: "Google Play Store DAU", value: "600+", target: 600, suffix: "+" },
-      { label: "National Tech Awards", value: "3x", target: 3, suffix: "x" },
     ]
   },
 
@@ -282,6 +282,7 @@ export const PORTFOLIO_DATA = {
     { name: "Kotlin", category: "mobile", icon: "Smartphone", badge: "Android Core" },
     { name: "Jetpack Compose", category: "mobile", icon: "Layers", badge: "Modern UI" },
     { name: "Android SDK & Services", category: "mobile", icon: "Zap", badge: "Background Ops" },
+    { name: "MapLibre Native", category: "mobile", icon: "MapPin", badge: "3D Maps" },
     { name: "Firebase (FCM & Analytics)", category: "mobile", icon: "Activity", badge: "Production" },
     { name: "Google Play Console", category: "mobile", icon: "Globe", badge: "Deployment" },
     { name: "Flutter & Dart", category: "mobile", icon: "Code", badge: "Cross-Platform" },
@@ -290,6 +291,7 @@ export const PORTFOLIO_DATA = {
     { name: "React", category: "frontend", icon: "Code2", badge: "Core" },
     { name: "Next.js", category: "frontend", icon: "Globe", badge: "Framework" },
     { name: "TypeScript", category: "frontend", icon: "FileCode2", badge: "Primary" },
+    { name: "Leaflet.js", category: "frontend", icon: "MapPin", badge: "Geospatial" },
     { name: "JavaScript (ES6+)", category: "frontend", icon: "Code", badge: "Core" },
     { name: "Tailwind CSS", category: "frontend", icon: "Palette", badge: "Styling" },
     { name: "HTML5 & CSS3", category: "frontend", icon: "Layout", badge: "Fundamental" },
@@ -303,10 +305,9 @@ export const PORTFOLIO_DATA = {
     { name: "RESTful APIs", category: "backend", icon: "Network", badge: "Architecture" },
 
     // Tools & AI
-    { name: "Claude Code", category: "tools", icon: "Sparkles", badge: "AI Agentic Core" },
+    { name: "AI Agents", category: "tools", icon: "Sparkles", badge: "Agentic Workflows" },
     { name: "Git & GitHub", category: "tools", icon: "GitBranch", badge: "VCS" },
     { name: "Docker", category: "tools", icon: "Box", badge: "Containers" },
-    { name: "Geospatial & Maps API", category: "tools", icon: "Globe", badge: "Telemetry" },
     { name: "Firebase Crashlytics", category: "tools", icon: "Activity", badge: "Observability" },
     { name: "VS Code / Android Studio", category: "tools", icon: "Terminal", badge: "Toolchain" },
   ] as TechItem[],
@@ -354,7 +355,7 @@ export const PORTFOLIO_DATA = {
   ] as ExperienceItem[],
 
   cvDetails: {
-    summary: "Product-minded Mobile Engineer specializing in Native Android Development (Kotlin, Jetpack Compose) and AI-Augmented Software Workflows (Claude Code). Proven track record of building and shipping production-grade mobile applications to the Google Play Store with 10,000+ total downloads and 600+ Daily Active Users (DAU). Deep technical expertise in engineering resilient Android Background Services, real-time map telemetry, and Firebase behavioral analytics. Full end-to-end ownership spanning product design, mobile architecture, backend integration, and store release in rapid 1–3 day sprint cycles.",
+    summary: "Product-minded Mobile Engineer specializing in Native Android Development (Kotlin, Jetpack Compose) and AI-Augmented Software Workflows (AI Agents). Proven track record of building and shipping production-grade mobile applications to the Google Play Store with 10,000+ total downloads and 600+ Daily Active Users (DAU). Deep technical expertise in engineering resilient Android Background Services, real-time map telemetry, and Firebase behavioral analytics. Full end-to-end ownership spanning product design, mobile architecture, backend integration, and store release in rapid 1–3 day sprint cycles.",
     education: [
       {
         degree: "Bachelor of Science in Informatics / Computer Science (S1)",
@@ -369,7 +370,7 @@ export const PORTFOLIO_DATA = {
       "3rd Place Winner (Juara 3) — Web Development Competition, I/O FEST 2025 (Universitas Tarumanagara Jakarta)",
       "National Finalist — National Innovation Week 3.0 (Universitas Darussalam Gontor)",
       "Android Native Engineering with Kotlin & Jetpack Compose",
-      "AI-Augmented Development & Rapid Prototyping with Claude Code",
+      "AI-Augmented Development & Rapid Prototyping with AI Agents",
       "Fullstack Web Engineering with Next.js, React, Node.js & TypeScript"
     ]
   }
